@@ -1,0 +1,17 @@
+{
+ "terms": {
+  "clinical trial": "کارآزمایی بالینی",
+  "care team": "تیم مراقبت",
+  "possible match to discuss with your care team": "تطابق احتمالی برای گفت‌وگو با تیم مراقبت شما",
+  "eligibility criteria": "معیارهای واجد شرایط بودن",
+  "inclusion criteria": "معیارهای ورود",
+  "exclusion criteria": "معیارهای خروج",
+  "recruiting": "در حال جذب",
+  "biomarker": "نشانگر زیستی"
+ },
+ "banned": [
+  "شما واجد شرایط هستید",
+  "شما شرایط لازم را دارید"
+ ],
+ "style": "Persian (Farsi), respectful 'شما'."
+}

@@ -1,0 +1,422 @@
+{
+ "note": "Labeled item by item (provisional; not clinician-reviewed). correct = the fact direction is a reasonable reading of the quoted criterion.",
+ "items": [
+  {
+   "n": 1,
+   "id": "NCT01639508",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I2",
+   "correct": true
+  },
+  {
+   "n": 2,
+   "id": "NCT02896335",
+   "key": "prior_surgery",
+   "value": "required",
+   "ref": "I12",
+   "correct": false,
+   "why": "tissue from biopsy, not prior surgery"
+  },
+  {
+   "n": 3,
+   "id": "NCT04185038",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "E8",
+   "correct": true
+  },
+  {
+   "n": 4,
+   "id": "NCT04300556",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E4",
+   "correct": true
+  },
+  {
+   "n": 5,
+   "id": "NCT04485559",
+   "key": "prior_surgery",
+   "value": "excluded",
+   "ref": "E4",
+   "correct": false,
+   "why": "missing tissue excluded: surgery not excluded"
+  },
+  {
+   "n": 6,
+   "id": "NCT04485559",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "E7",
+   "correct": true
+  },
+  {
+   "n": 7,
+   "id": "NCT04665739",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I6",
+   "correct": false,
+   "why": "recurrent OR advanced: not required"
+  },
+  {
+   "n": 8,
+   "id": "NCT04665739",
+   "key": "prior_radiation",
+   "value": "required",
+   "ref": "I10",
+   "correct": false,
+   "why": "radiation of lesions mentioned, not required"
+  },
+  {
+   "n": 9,
+   "id": "NCT04812366",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E7",
+   "correct": false,
+   "why": "cardiac criterion, unrelated"
+  },
+  {
+   "n": 10,
+   "id": "NCT04900935",
+   "key": "biomarker:ROS1",
+   "value": "required",
+   "ref": "I3",
+   "correct": false,
+   "why": "any one of several drivers"
+  },
+  {
+   "n": 11,
+   "id": "NCT04913285",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E1",
+   "correct": true
+  },
+  {
+   "n": 12,
+   "id": "NCT04977375",
+   "key": "prior_surgery",
+   "value": "required",
+   "ref": "I3",
+   "correct": false,
+   "why": "planned (future) surgery"
+  },
+  {
+   "n": 13,
+   "id": "NCT05139056",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "I20",
+   "correct": true
+  },
+  {
+   "n": 14,
+   "id": "NCT05144698",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "E10",
+   "correct": true
+  },
+  {
+   "n": 15,
+   "id": "NCT05176483",
+   "key": "prior_targeted_therapy",
+   "value": "required",
+   "ref": "I6",
+   "correct": true
+  },
+  {
+   "n": 16,
+   "id": "NCT05325632",
+   "key": "metastatic",
+   "value": "excluded",
+   "ref": "E1",
+   "correct": true
+  },
+  {
+   "n": 17,
+   "id": "NCT05544968",
+   "key": "prior_immunotherapy",
+   "value": "required",
+   "ref": "I7",
+   "correct": false,
+   "why": "one of several relapse options"
+  },
+  {
+   "n": 18,
+   "id": "NCT05554406",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I6",
+   "correct": false,
+   "why": "therapy-related AML allowed, not required"
+  },
+  {
+   "n": 19,
+   "id": "NCT05636111",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I4",
+   "correct": true
+  },
+  {
+   "n": 20,
+   "id": "NCT05655312",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I3",
+   "correct": true
+  },
+  {
+   "n": 21,
+   "id": "NCT05806931",
+   "key": "biomarker:EGFR",
+   "value": "excluded",
+   "ref": "I1",
+   "correct": false,
+   "why": "anti-EGFR antibody therapy, not EGFR status"
+  },
+  {
+   "n": 22,
+   "id": "NCT05855200",
+   "key": "prior_chemotherapy",
+   "value": "excluded",
+   "ref": "E2",
+   "correct": true
+  },
+  {
+   "n": 23,
+   "id": "NCT06054776",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I7",
+   "correct": true
+  },
+  {
+   "n": 24,
+   "id": "NCT06090903",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I2",
+   "correct": false,
+   "why": "newly diagnosed OR recurrent"
+  },
+  {
+   "n": 25,
+   "id": "NCT06402357",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I8",
+   "correct": false,
+   "why": "PSMA PET negative for metastases => metastatic excluded"
+  },
+  {
+   "n": 26,
+   "id": "NCT06508463",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I2",
+   "correct": true
+  },
+  {
+   "n": 27,
+   "id": "NCT06545955",
+   "key": "prior_chemotherapy",
+   "value": "excluded",
+   "ref": "E8",
+   "correct": true
+  },
+  {
+   "n": 28,
+   "id": "NCT06553885",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I1",
+   "correct": true
+  },
+  {
+   "n": 29,
+   "id": "NCT06567743",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "E4",
+   "correct": true
+  },
+  {
+   "n": 30,
+   "id": "NCT06617923",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E2",
+   "correct": true
+  },
+  {
+   "n": 31,
+   "id": "NCT06637423",
+   "key": "metastatic",
+   "value": "excluded",
+   "ref": "E3",
+   "correct": true
+  },
+  {
+   "n": 32,
+   "id": "NCT06669117",
+   "key": "prior_surgery",
+   "value": "required",
+   "ref": "I2",
+   "correct": false,
+   "why": "no surgery requirement"
+  },
+  {
+   "n": 33,
+   "id": "NCT06695845",
+   "key": "biomarker:HER2",
+   "value": "required",
+   "ref": "I3",
+   "correct": true
+  },
+  {
+   "n": 34,
+   "id": "NCT06698458",
+   "key": "prior_chemotherapy",
+   "value": "excluded",
+   "ref": "E2",
+   "correct": true
+  },
+  {
+   "n": 35,
+   "id": "NCT06786533",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I3",
+   "correct": false,
+   "why": "refractory after induction => previously treated"
+  },
+  {
+   "n": 36,
+   "id": "NCT06940739",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I2",
+   "correct": true
+  },
+  {
+   "n": 37,
+   "id": "NCT06966700",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E3",
+   "correct": true
+  },
+  {
+   "n": 38,
+   "id": "NCT06999187",
+   "key": "biomarker:HR",
+   "value": "excluded",
+   "ref": "I1",
+   "correct": false,
+   "why": "HR+ is listed as eligible"
+  },
+  {
+   "n": 39,
+   "id": "NCT07024615",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "I17",
+   "correct": true
+  },
+  {
+   "n": 40,
+   "id": "NCT07076498",
+   "key": "prior_radiation",
+   "value": "required",
+   "ref": "I25",
+   "correct": false,
+   "why": "menopause via prior pelvic radiation is one option"
+  },
+  {
+   "n": 41,
+   "id": "NCT07148128",
+   "key": "biomarker:KRAS",
+   "value": "required",
+   "ref": "I1",
+   "correct": true
+  },
+  {
+   "n": 42,
+   "id": "NCT07157033",
+   "key": "metastatic",
+   "value": "excluded",
+   "ref": "I5",
+   "correct": true
+  },
+  {
+   "n": 43,
+   "id": "NCT07183319",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I1",
+   "correct": true
+  },
+  {
+   "n": 44,
+   "id": "NCT07225621",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I4",
+   "correct": true
+  },
+  {
+   "n": 45,
+   "id": "NCT07225621",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "I10",
+   "correct": true
+  },
+  {
+   "n": 46,
+   "id": "NCT07292272",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "E6",
+   "correct": true
+  },
+  {
+   "n": 47,
+   "id": "NCT07475806",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E15",
+   "correct": true
+  },
+  {
+   "n": 48,
+   "id": "NCT07549412",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I1",
+   "correct": true
+  },
+  {
+   "n": 49,
+   "id": "NCT07645651",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E1",
+   "correct": true
+  },
+  {
+   "n": 50,
+   "id": "NCT07759921",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I10",
+   "correct": false,
+   "why": "recurrent/metastatic diagnosis, not treatment history"
+  }
+ ]
+}

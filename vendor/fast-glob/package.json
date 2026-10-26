@@ -1,0 +1,8 @@
+{
+  "name": "fast-glob",
+  "version": "3.3.3-tinyglobby-shim",
+  "description": "Minimal fast-glob API shim over tinyglobby (no micromatch/braces). Used via npm overrides for @next/eslint-plugin-next, which only calls globSync(pattern, { onlyDirectories }).",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": { "tinyglobby": "0.2.17" }
+}

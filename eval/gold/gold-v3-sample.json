@@ -1,0 +1,2706 @@
+{
+ "note": "gold-v3 sampled trials (see scripts/ingest/gold-v3.ts header for the protocol)",
+ "seed": 20261012,
+ "entries": [
+  {
+   "id": "NCT06144164",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07405645",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07856394",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07225270",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05178472",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06917079",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06985784",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07686380",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05700461",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05464719",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06843434",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07361107",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06859008",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06344052",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07058571",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06817668",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04902443",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06910761",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT02361320",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07318324",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06203210",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07555938",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06216938",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07321912",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT03199651",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06578624",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04515810",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07630974",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06625775",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05918263",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04174352",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07182279",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06660420",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05838638",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07408531",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04872543",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06136559",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT02727803",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05607108",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06609005",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06889168",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07518186",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05296681",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04588922",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07126158",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07342478",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07085767",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT03579875",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04933435",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06149286",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07047872",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05673928",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06756607",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07219251",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06022939",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07460765",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06706921",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07223385",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06375044",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06428721",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04614103",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05674396",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06551142",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT03623958",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06985238",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05504291",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05126472",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07305259",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07682714",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06588413",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05123807",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07165132",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06184516",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04986423",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06376669",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT03521830",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05618925",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07619313",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06997497",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04055649",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07167446",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT03114462",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06613841",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06795529",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05687123",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06538376",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06617858",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07634653",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06974110",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07143487",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07102147",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05225428",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07677839",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06394570",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07222995",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07403721",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07572136",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07116486",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05024552",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04919382",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05934448",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06987890",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06399640",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06569693",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT02830724",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05467891",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07502352",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07288034",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06720987",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07337590",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06408220",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06754722",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06565052",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07300995",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06128070",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05804370",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07042243",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT01473784",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05985681",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05657873",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04295863",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06545604",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT02638701",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07205822",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06252649",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT03898596",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05201781",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07161414",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06997094",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06150157",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06613217",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05785741",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07192055",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07286318",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07301268",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05787561",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06305299",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04375631",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06236139",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05839912",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06707493",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT03911388",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07225946",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06873815",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06390319",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT07447856",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05361174",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT06986174",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04022239",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT05565118",
+   "split": "dev",
+   "stratum": "random",
+   "tag": "dev1"
+  },
+  {
+   "id": "NCT04693468",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07359911",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07223814",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07844694",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07027514",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07106359",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06284590",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05873608",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04915183",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04984551",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06760507",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07126496",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05842044",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07699991",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04923542",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07657312",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07332507",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05568680",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04299191",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05020574",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04529044",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04650256",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07539311",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06543381",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07150806",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06617481",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06518837",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06380751",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05092373",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06259552",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04623502",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04458532",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07645469",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06814496",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07100080",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03897270",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07021898",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06057948",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07593092",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07285057",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05203328",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT01624805",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04693377",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05884333",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05434598",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07033689",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05496036",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07257484",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06748911",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06902272",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06756932",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05659797",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07564401",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06580002",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06306638",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07231627",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07277231",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05582551",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06911502",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07558733",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07346092",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07698314",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04067830",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07030959",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06280300",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07554560",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06461650",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06173401",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06667726",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06380101",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07447700",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04594187",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06586047",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07227623",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05586360",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06145633",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07231952",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07164313",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03145077",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06868277",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06409390",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06923501",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06822010",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05789433",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06852222",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05501665",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07044557",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06336902",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT00107289",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05373823",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT02972801",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06799481",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07029399",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05369429",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07506239",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07416188",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05876923",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05366829",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06579248",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07086833",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07698899",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06422806",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05620342",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06218914",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06002425",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06138067",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07071207",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06884618",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06706076",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06245889",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06558214",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03245411",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07619599",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03326921",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06624644",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07078604",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06099769",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06963346",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05786924",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05529069",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06672575",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05562791",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06442475",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06810375",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06384807",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06852820",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07111182",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06731933",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05519579",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03398161",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06249191",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07278557",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06591819",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06072781",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06831136",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07213804",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06871410",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07585266",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06549595",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03161522",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07764796",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07071961",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06662786",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04049331",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05076942",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07313241",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06825715",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06504381",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06922591",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07771803",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07285044",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05271240",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06919939",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05667532",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06663319",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06376565",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT02422641",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07339085",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05800587",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06907706",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06510309",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07365306",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04891068",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03832361",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07126301",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06190197",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06950385",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06500481",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06169371",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06522568",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06644560",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06228326",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03190941",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05950464",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05526417",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07142408",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05818683",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06607406",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05549661",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07029217",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07218601",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06540963",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05045066",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06529731",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT02508038",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03830801",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03934905",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06963723",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04634552",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07265947",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06333262",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06745180",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07139990",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06127407",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05800366",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07423078",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07433673",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04196413",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07207395",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03310879",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06107738",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05380349",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05723107",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07209436",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05698524",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06926920",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06616636",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT01891318",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07225088",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06887205",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07248228",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06700070",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06697197",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05708716",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07226999",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06623097",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06235125",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07325578",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07548164",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06307535",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06801002",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07741968",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07166120",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05335811",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07022678",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06225804",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07064122",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT02526368",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05356117",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06305715",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04122456",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07162038",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07227636",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06260943",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07460752",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05504707",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06993688",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07075510",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05419076",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07673614",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06010342",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06085313",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05530655",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05886036",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07229313",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06157151",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06085729",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07671534",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05204862",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07146646",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06302595",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06938555",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04991948",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03096418",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07044583",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07533942",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05691010",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05320198",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04598009",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05951816",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03842943",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07094750",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07762586",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06055894",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07005102",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06409065",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05315700",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04523857",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05443737",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05886920",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03517579",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07739563",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05053867",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06969430",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05975593",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07509034",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06810778",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04015609",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06774963",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07655934",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06370000",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT02974647",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06807437",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT01492972",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06682793",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06852365",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06445166",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06916767",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05683808",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06943872",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06564233",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05281809",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07059845",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06046495",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06744465",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT05372354",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT06323044",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT03523975",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT04723810",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  },
+  {
+   "id": "NCT07124546",
+   "split": "held",
+   "stratum": "random",
+   "tag": "held1"
+  }
+ ]
+}

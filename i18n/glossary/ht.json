@@ -1,0 +1,17 @@
+{
+ "terms": {
+  "clinical trial": "etid klinik",
+  "care team": "ekip swen",
+  "possible match to discuss with your care team": "posib match pou pale ak ekip swen ou",
+  "eligibility criteria": "kritè elijibilite",
+  "inclusion criteria": "kritè enklizyon",
+  "exclusion criteria": "kritè eksklizyon",
+  "recruiting": "ap rekrite",
+  "biomarker": "byomakè"
+ },
+ "banned": [
+  "ou elijib",
+  "ou kalifye"
+ ],
+ "style": "Haitian Creole (Kreyòl ayisyen), simple and warm."
+}

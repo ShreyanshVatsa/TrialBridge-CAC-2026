@@ -1,0 +1,18 @@
+{
+ "terms": {
+  "clinical trial": "क्लिनिकल ट्रायल",
+  "care team": "देखभाल टीम",
+  "possible match to discuss with your care team": "संभावित मेल जिस पर आप अपनी देखभाल टीम से चर्चा कर सकते हैं",
+  "eligibility criteria": "पात्रता मानदंड",
+  "inclusion criteria": "समावेशन मानदंड",
+  "exclusion criteria": "बहिष्करण मानदंड",
+  "recruiting": "भर्ती जारी है",
+  "biomarker": "बायोमार्कर"
+ },
+ "banned": [
+  "आप पात्र हैं",
+  "आप योग्य हैं",
+  "आप इस ट्रायल के लिए योग्य"
+ ],
+ "style": "Hindi in Devanagari, respectful 'आप'."
+}

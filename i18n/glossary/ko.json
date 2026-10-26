@@ -1,0 +1,18 @@
+{
+ "terms": {
+  "clinical trial": "임상시험",
+  "care team": "의료진",
+  "possible match to discuss with your care team": "의료진과 상의해 볼 수 있는 가능한 일치",
+  "eligibility criteria": "참여 자격 기준",
+  "inclusion criteria": "선정 기준",
+  "exclusion criteria": "제외 기준",
+  "recruiting": "모집 중",
+  "biomarker": "바이오마커"
+ },
+ "banned": [
+  "귀하는 자격이 있습니다",
+  "자격이 됩니다",
+  "참여할 수 있는 자격"
+ ],
+ "style": "Korean polite 해요체 consistently."
+}

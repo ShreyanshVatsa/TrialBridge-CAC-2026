@@ -1,0 +1,18 @@
+{
+ "terms": {
+  "clinical trial": "estudo clínico",
+  "care team": "equipe de saúde",
+  "possible match to discuss with your care team": "possível correspondência para conversar com sua equipe de saúde",
+  "eligibility criteria": "critérios de elegibilidade",
+  "inclusion criteria": "critérios de inclusão",
+  "exclusion criteria": "critérios de exclusão",
+  "recruiting": "recrutando",
+  "biomarker": "biomarcador"
+ },
+ "banned": [
+  "você é elegível",
+  "você se qualifica",
+  "você está qualificado"
+ ],
+ "style": "Brazilian Portuguese, 'você'."
+}

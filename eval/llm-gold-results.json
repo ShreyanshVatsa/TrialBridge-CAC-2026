@@ -1,0 +1,659 @@
+{
+ "note": "Gold = eval/gold/gold-v1.json + gold-v2.json, provisionally labeled (not clinicians); measured once, never tuned on. n = committed directional facts; precision excludes facts where gold says ambiguous (counted separately).",
+ "minConfidence": 0.95,
+ "results": {
+  "rules": {
+   "all": {
+    "lines": {
+     "n": 12,
+     "correct": 9,
+     "incorrect": 3,
+     "ambiguous": 0,
+     "relevant": 67,
+     "covered": 8,
+     "coveredCorrect": 8
+    },
+    "prior_drug": {
+     "n": 40,
+     "correct": 25,
+     "incorrect": 15,
+     "ambiguous": 0,
+     "relevant": 51,
+     "covered": 23,
+     "coveredCorrect": 19
+    },
+    "stage": {
+     "n": 1,
+     "correct": 1,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 28,
+     "covered": 1,
+     "coveredCorrect": 1
+    },
+    "recurrent": {
+     "n": 32,
+     "correct": 25,
+     "incorrect": 7,
+     "ambiguous": 0,
+     "relevant": 85,
+     "covered": 26,
+     "coveredCorrect": 25
+    },
+    "other_malignancy": {
+     "n": 63,
+     "correct": 48,
+     "incorrect": 15,
+     "ambiguous": 0,
+     "relevant": 91,
+     "covered": 60,
+     "coveredCorrect": 48
+    },
+    "hepatitis": {
+     "n": 104,
+     "correct": 81,
+     "incorrect": 23,
+     "ambiguous": 0,
+     "relevant": 68,
+     "covered": 55,
+     "coveredCorrect": 48
+    },
+    "biomarker_v2": {
+     "n": 1,
+     "correct": 1,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 6,
+     "covered": 1,
+     "coveredCorrect": 1
+    },
+    "histology": {
+     "n": 39,
+     "correct": 26,
+     "incorrect": 13,
+     "ambiguous": 0,
+     "relevant": 92,
+     "covered": 29,
+     "coveredCorrect": 26
+    }
+   },
+   "v1": {
+    "lines": {
+     "n": 8,
+     "correct": 5,
+     "incorrect": 3,
+     "ambiguous": 0,
+     "relevant": 35,
+     "covered": 4,
+     "coveredCorrect": 4
+    },
+    "prior_drug": {
+     "n": 19,
+     "correct": 12,
+     "incorrect": 7,
+     "ambiguous": 0,
+     "relevant": 21,
+     "covered": 10,
+     "coveredCorrect": 9
+    },
+    "stage": {
+     "n": 0,
+     "correct": 0,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 16,
+     "covered": 0,
+     "coveredCorrect": 0
+    },
+    "recurrent": {
+     "n": 15,
+     "correct": 12,
+     "incorrect": 3,
+     "ambiguous": 0,
+     "relevant": 35,
+     "covered": 13,
+     "coveredCorrect": 12
+    },
+    "other_malignancy": {
+     "n": 26,
+     "correct": 20,
+     "incorrect": 6,
+     "ambiguous": 0,
+     "relevant": 40,
+     "covered": 25,
+     "coveredCorrect": 20
+    },
+    "hepatitis": {
+     "n": 42,
+     "correct": 33,
+     "incorrect": 9,
+     "ambiguous": 0,
+     "relevant": 33,
+     "covered": 23,
+     "coveredCorrect": 19
+    },
+    "biomarker_v2": {
+     "n": 1,
+     "correct": 1,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 1,
+     "covered": 1,
+     "coveredCorrect": 1
+    },
+    "histology": {
+     "n": 24,
+     "correct": 14,
+     "incorrect": 10,
+     "ambiguous": 0,
+     "relevant": 43,
+     "covered": 17,
+     "coveredCorrect": 14
+    }
+   },
+   "v2:keyword": {
+    "lines": {
+     "n": 1,
+     "correct": 1,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 17,
+     "covered": 1,
+     "coveredCorrect": 1
+    },
+    "prior_drug": {
+     "n": 16,
+     "correct": 10,
+     "incorrect": 6,
+     "ambiguous": 0,
+     "relevant": 21,
+     "covered": 10,
+     "coveredCorrect": 8
+    },
+    "stage": {
+     "n": 1,
+     "correct": 1,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 6,
+     "covered": 1,
+     "coveredCorrect": 1
+    },
+    "recurrent": {
+     "n": 11,
+     "correct": 7,
+     "incorrect": 4,
+     "ambiguous": 0,
+     "relevant": 29,
+     "covered": 7,
+     "coveredCorrect": 7
+    },
+    "other_malignancy": {
+     "n": 20,
+     "correct": 15,
+     "incorrect": 5,
+     "ambiguous": 0,
+     "relevant": 28,
+     "covered": 19,
+     "coveredCorrect": 15
+    },
+    "hepatitis": {
+     "n": 35,
+     "correct": 27,
+     "incorrect": 8,
+     "ambiguous": 0,
+     "relevant": 21,
+     "covered": 18,
+     "coveredCorrect": 15
+    },
+    "biomarker_v2": {
+     "n": 0,
+     "correct": 0,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 2,
+     "covered": 0,
+     "coveredCorrect": 0
+    },
+    "histology": {
+     "n": 4,
+     "correct": 3,
+     "incorrect": 1,
+     "ambiguous": 0,
+     "relevant": 29,
+     "covered": 3,
+     "coveredCorrect": 3
+    }
+   },
+   "v2:random": {
+    "lines": {
+     "n": 3,
+     "correct": 3,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 15,
+     "covered": 3,
+     "coveredCorrect": 3
+    },
+    "prior_drug": {
+     "n": 5,
+     "correct": 3,
+     "incorrect": 2,
+     "ambiguous": 0,
+     "relevant": 9,
+     "covered": 3,
+     "coveredCorrect": 2
+    },
+    "stage": {
+     "n": 0,
+     "correct": 0,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 6,
+     "covered": 0,
+     "coveredCorrect": 0
+    },
+    "recurrent": {
+     "n": 6,
+     "correct": 6,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 21,
+     "covered": 6,
+     "coveredCorrect": 6
+    },
+    "other_malignancy": {
+     "n": 17,
+     "correct": 13,
+     "incorrect": 4,
+     "ambiguous": 0,
+     "relevant": 23,
+     "covered": 16,
+     "coveredCorrect": 13
+    },
+    "hepatitis": {
+     "n": 27,
+     "correct": 21,
+     "incorrect": 6,
+     "ambiguous": 0,
+     "relevant": 14,
+     "covered": 14,
+     "coveredCorrect": 14
+    },
+    "biomarker_v2": {
+     "n": 0,
+     "correct": 0,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 3,
+     "covered": 0,
+     "coveredCorrect": 0
+    },
+    "histology": {
+     "n": 11,
+     "correct": 9,
+     "incorrect": 2,
+     "ambiguous": 0,
+     "relevant": 20,
+     "covered": 9,
+     "coveredCorrect": 9
+    }
+   }
+  },
+  "llm": {
+   "all": {
+    "lines": {
+     "n": 24,
+     "correct": 17,
+     "incorrect": 4,
+     "ambiguous": 3,
+     "relevant": 67,
+     "covered": 17,
+     "coveredCorrect": 16
+    },
+    "prior_drug": {
+     "n": 41,
+     "correct": 27,
+     "incorrect": 14,
+     "ambiguous": 0,
+     "relevant": 51,
+     "covered": 28,
+     "coveredCorrect": 23
+    },
+    "stage": {
+     "n": 3,
+     "correct": 3,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 28,
+     "covered": 3,
+     "coveredCorrect": 3
+    },
+    "recurrent": {
+     "n": 42,
+     "correct": 35,
+     "incorrect": 7,
+     "ambiguous": 0,
+     "relevant": 85,
+     "covered": 36,
+     "coveredCorrect": 35
+    },
+    "other_malignancy": {
+     "n": 29,
+     "correct": 28,
+     "incorrect": 1,
+     "ambiguous": 0,
+     "relevant": 91,
+     "covered": 29,
+     "coveredCorrect": 28
+    },
+    "hepatitis": {
+     "n": 51,
+     "correct": 41,
+     "incorrect": 10,
+     "ambiguous": 0,
+     "relevant": 68,
+     "covered": 33,
+     "coveredCorrect": 26
+    },
+    "biomarker_v2": {
+     "n": 2,
+     "correct": 2,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 6,
+     "covered": 2,
+     "coveredCorrect": 2
+    },
+    "histology": {
+     "n": 26,
+     "correct": 19,
+     "incorrect": 7,
+     "ambiguous": 0,
+     "relevant": 92,
+     "covered": 23,
+     "coveredCorrect": 19
+    }
+   },
+   "v1": {
+    "lines": {
+     "n": 15,
+     "correct": 10,
+     "incorrect": 4,
+     "ambiguous": 1,
+     "relevant": 35,
+     "covered": 10,
+     "coveredCorrect": 9
+    },
+    "prior_drug": {
+     "n": 17,
+     "correct": 13,
+     "incorrect": 4,
+     "ambiguous": 0,
+     "relevant": 21,
+     "covered": 14,
+     "coveredCorrect": 13
+    },
+    "stage": {
+     "n": 1,
+     "correct": 1,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 16,
+     "covered": 1,
+     "coveredCorrect": 1
+    },
+    "recurrent": {
+     "n": 21,
+     "correct": 17,
+     "incorrect": 4,
+     "ambiguous": 0,
+     "relevant": 35,
+     "covered": 17,
+     "coveredCorrect": 17
+    },
+    "other_malignancy": {
+     "n": 14,
+     "correct": 14,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 40,
+     "covered": 14,
+     "coveredCorrect": 14
+    },
+    "hepatitis": {
+     "n": 22,
+     "correct": 18,
+     "incorrect": 4,
+     "ambiguous": 0,
+     "relevant": 33,
+     "covered": 14,
+     "coveredCorrect": 12
+    },
+    "biomarker_v2": {
+     "n": 1,
+     "correct": 1,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 1,
+     "covered": 1,
+     "coveredCorrect": 1
+    },
+    "histology": {
+     "n": 16,
+     "correct": 11,
+     "incorrect": 5,
+     "ambiguous": 0,
+     "relevant": 43,
+     "covered": 14,
+     "coveredCorrect": 11
+    }
+   },
+   "v2:keyword": {
+    "lines": {
+     "n": 7,
+     "correct": 5,
+     "incorrect": 0,
+     "ambiguous": 2,
+     "relevant": 17,
+     "covered": 5,
+     "coveredCorrect": 5
+    },
+    "prior_drug": {
+     "n": 17,
+     "correct": 10,
+     "incorrect": 7,
+     "ambiguous": 0,
+     "relevant": 21,
+     "covered": 11,
+     "coveredCorrect": 8
+    },
+    "stage": {
+     "n": 1,
+     "correct": 1,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 6,
+     "covered": 1,
+     "coveredCorrect": 1
+    },
+    "recurrent": {
+     "n": 13,
+     "correct": 11,
+     "incorrect": 2,
+     "ambiguous": 0,
+     "relevant": 29,
+     "covered": 11,
+     "coveredCorrect": 11
+    },
+    "other_malignancy": {
+     "n": 5,
+     "correct": 4,
+     "incorrect": 1,
+     "ambiguous": 0,
+     "relevant": 28,
+     "covered": 5,
+     "coveredCorrect": 4
+    },
+    "hepatitis": {
+     "n": 16,
+     "correct": 13,
+     "incorrect": 3,
+     "ambiguous": 0,
+     "relevant": 21,
+     "covered": 10,
+     "coveredCorrect": 8
+    },
+    "biomarker_v2": {
+     "n": 0,
+     "correct": 0,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 2,
+     "covered": 0,
+     "coveredCorrect": 0
+    },
+    "histology": {
+     "n": 6,
+     "correct": 4,
+     "incorrect": 2,
+     "ambiguous": 0,
+     "relevant": 29,
+     "covered": 5,
+     "coveredCorrect": 4
+    }
+   },
+   "v2:random": {
+    "lines": {
+     "n": 2,
+     "correct": 2,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 15,
+     "covered": 2,
+     "coveredCorrect": 2
+    },
+    "prior_drug": {
+     "n": 7,
+     "correct": 4,
+     "incorrect": 3,
+     "ambiguous": 0,
+     "relevant": 9,
+     "covered": 3,
+     "coveredCorrect": 2
+    },
+    "stage": {
+     "n": 1,
+     "correct": 1,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 6,
+     "covered": 1,
+     "coveredCorrect": 1
+    },
+    "recurrent": {
+     "n": 8,
+     "correct": 7,
+     "incorrect": 1,
+     "ambiguous": 0,
+     "relevant": 21,
+     "covered": 8,
+     "coveredCorrect": 7
+    },
+    "other_malignancy": {
+     "n": 10,
+     "correct": 10,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 23,
+     "covered": 10,
+     "coveredCorrect": 10
+    },
+    "hepatitis": {
+     "n": 13,
+     "correct": 10,
+     "incorrect": 3,
+     "ambiguous": 0,
+     "relevant": 14,
+     "covered": 9,
+     "coveredCorrect": 6
+    },
+    "biomarker_v2": {
+     "n": 1,
+     "correct": 1,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 3,
+     "covered": 1,
+     "coveredCorrect": 1
+    },
+    "histology": {
+     "n": 4,
+     "correct": 4,
+     "incorrect": 0,
+     "ambiguous": 0,
+     "relevant": 20,
+     "covered": 4,
+     "coveredCorrect": 4
+    }
+   }
+  }
+ },
+ "errors": {
+  "hepatitis": [
+   "NCT06741072 hepatitis_b excluded I4 :: Subjects must be seronegative for hepatitis B and C",
+   "NCT06741072 hepatitis_c excluded I4 :: Subjects must be seronegative for hepatitis B and C",
+   "NCT04511039 hepatitis_c excluded(active_only) E12 :: Known human immunodeficiency virus (HIV) or hepatitis B infection or untreated hepatitis C infection.",
+   "NCT07211659 hepatitis_b excluded(active_only) E9 :: Patients with past hepatitis B virus (HBV) infection or resolved HBV infection are eligible.",
+   "NCT07218510 hepatitis_b excluded E13 :: Known positive test result for chronic hepatitis B virus (HBV) infection (defined by hepatitis B virus surface antigen [HBsAg] positivity)",
+   "NCT06552260 hepatitis_c excluded(active_only) E15 :: Known history of hepatitis B, human immunodeficiency virus (HIV), or active hepatitis C infection requiring treatment with antiviral therapy.",
+   "NCT06482905 hepatitis_b excluded E3 :: * Hepatitis B surface antigen (HBsAg) positive and peripheral blood HBV DNA test value exceeds the normal range;",
+   "NCT06482905 hepatitis_c excluded E3 :: * Hepatitis C virus (HCV) antibody positive and peripheral blood HCV RNA positive.",
+   "NCT06487221 hepatitis_b excluded E10 :: Known hepatitis B, hepatitis C, or human immunodeficiency virus (HIV) infection that is active and/or requires therapy.",
+   "NCT05530421 hepatitis_c excluded E7 :: Subjects with untreated hepatitis C virus (HCV) are allowed."
+  ],
+  "prior_drug": [
+   "NCT07581184 prior_drug:taxane excluded E1 :: Prior treatment with more than 2 Androgen receptor pathway inhibitors (ARPIs) and/or more than 1 taxane-based therapy in the mCRPC setting",
+   "NCT07581184 prior_drug:arpi excluded E1 :: Prior treatment with more than 2 Androgen receptor pathway inhibitors (ARPIs) and/or more than 1 taxane-based therapy in the mCRPC setting",
+   "NCT04905810 prior_drug:venetoclax excluded E5 :: Prior therapy with venetoclax",
+   "NCT06671613 prior_drug:checkpoint excluded I6 :: Patients should be enrolled prior to starting standard of care immunotherapy for the treatment of stage IV NSCLC. Patients should be on PD (L)1 inhibitor alone ",
+   "NCT05733689 prior_drug:auto_sct excluded E8 :: Patients with prior organ/bone marrow/non-autologous stem cell transplants",
+   "NCT04901702 prior_drug:temozolomide excluded I11 :: Patients who have received prior therapy with an irinotecan-based or temozolomide-based regimen are eligible.",
+   "NCT06764875 prior_drug:car_t excluded E16 :: A pleural effusion, ascites or pericardial effusion that requires drainage, peritoneal shunt, or cell-free and concentrated ascites reinfusion therapy (CART).",
+   "NCT03970096 prior_drug:auto_sct excluded E9 :: Patients who have received previous myeloablative allogeneic or autologous transplantation.",
+   "NCT07224672 prior_drug:auto_sct excluded I6 :: Not considered candidate for high-dose chemotherapy with autologous stem cell transplantation (ASCT) as part of first line of therapy",
+   "NCT06770582 prior_drug:checkpoint excluded I23 :: No prior treatment with anti-PD-1, anti PD-L1, anti PD-L2 or anti-CTLA4 antibody or any other antibody or drug targeting T-cell co-stimulation",
+   "NCT07227025 prior_drug:checkpoint required I1 :: progressed on or after, or have intolerance to, platinum-based chemotherapy and Programmed Death-Ligand 1 (PD-L1)-targeted immunotherapy given in combination or",
+   "NCT07145112 prior_drug:temozolomide required I7 :: Four weeks from cytotoxic agents (3 weeks from procarbazine, 3 weeks from vincristine, and 4 weeks from temozolomide)",
+   "NCT06187402 prior_drug:auto_sct excluded E17 :: autologous hematopoietic stem cell transplantation",
+   "NCT04442724 prior_drug:bcg excluded E7 :: prior bacille Calmette-Guerin vaccine (BCG) is not an exclusion"
+  ],
+  "lines": [
+   "NCT07001592 min_prior_lines required(2) I3 :: subjects must have failed (or be ineligible for) standard 1st and 2nd line chemotherapy",
+   "NCT07368998 min_prior_lines required(1) I2 :: Disease progression after or during treatment with a combination of CDK4/6i and endocrine therapy: <= 1 prior lines of systemic therapy in the locally advanced ",
+   "NCT06029309 min_prior_lines required(1) I10 :: Relapsed MCL patients with at least 1 but no more than 3 lines of therapy",
+   "NCT06029309 max_prior_lines required(3) I10 :: Relapsed MCL patients with at least 1 but no more than 3 lines of therapy"
+  ],
+  "recurrent": [
+   "NCT07549958 recurrent required I3 :: Has a diagnosis of histologically or cytologically confirmed metastatic, recurrent, or locally advanced PDAC",
+   "NCT05945875 recurrent required I3 :: Subjects with recurrent disease or a new primary will be allowed",
+   "NCT04995003 recurrent required I7 :: Diagnosis of a HER2 positive sarcoma with active disease progression or recurrence after at least one prior systemic therapy",
+   "NCT04719156 recurrent required I3 :: Patients with a biopsy-confirmed primary soft tissue or bone tumor that has not been previously excised and has a known risk of local or remote recurrence.",
+   "NCT07602842 recurrent required I2 :: advanced, metastatic, or recurrent solid tumors",
+   "NCT05774899 recurrent required I3 :: Participants must have histologically confirmed adenoid cystic carcinoma (ACC) with evidence of recurrent, metastatic or advanced, incurable disease arising fro",
+   "NCT07680764 recurrent required I1 :: recurrent unresectable disease"
+  ],
+  "histology": [
+   "NCT07802717 histology:smoldering_myeloma excluded E1 :: Has monoclonal gammopathy of undetermined significance, smoldering multiple myeloma, or AL amyloidosis.",
+   "NCT07802717 histology:amyloidosis excluded E1 :: Has monoclonal gammopathy of undetermined significance, smoldering multiple myeloma, or AL amyloidosis.",
+   "NCT06931340 histology:prostate_neuroendocrine excluded I2 :: * Histologically or cytologically confirmed adenocarcinoma of the prostate without small cell histology",
+   "NCT05945875 histology:hnscc required I2 :: Biopsy-confirmed diagnosis of squamous cell carcinoma of the head and neck",
+   "NCT06922539 histology:sclc required I1 :: Small cell lung cancer (SCLC).",
+   "NCT03761108 histology:amyloidosis excluded E1 :: Diagnosis of plasma cell leukemia, primary systemic light-chain amyloidosis, (excluding myeloma-associated amyloidosis), Waldenström macroglobulinemia (lymphopl",
+   "NCT04361708 histology:pdac required I1 :: pancreatic adenocarcinoma"
+  ],
+  "other_malignancy": [
+   "NCT05334004 other_malignancy excluded E5 :: Currently receiving systemic chemotherapy or radiation therapy for another cancer."
+  ]
+ }
+}

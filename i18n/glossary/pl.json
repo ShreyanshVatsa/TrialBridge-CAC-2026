@@ -1,0 +1,19 @@
+{
+ "terms": {
+  "clinical trial": "badanie kliniczne",
+  "care team": "zespół opieki zdrowotnej",
+  "possible match to discuss with your care team": "możliwe dopasowanie do omówienia z zespołem opieki",
+  "eligibility criteria": "kryteria kwalifikacji",
+  "inclusion criteria": "kryteria włączenia",
+  "exclusion criteria": "kryteria wyłączenia",
+  "recruiting": "trwa nabór",
+  "biomarker": "biomarker"
+ },
+ "banned": [
+  "kwalifikujesz się",
+  "jesteś uprawniony",
+  "jesteś uprawniona",
+  "spełniasz kryteria"
+ ],
+ "style": "Polish; address the reader with the neutral second person ('możesz')."
+}

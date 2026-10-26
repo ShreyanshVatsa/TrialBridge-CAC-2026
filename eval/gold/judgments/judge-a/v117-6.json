@@ -1,0 +1,1 @@
+{"judge":"judge-a","model":"labeling pass A","vignette":"v117","judgedAt":"2026-10-20","labels":[{"nctId":"NCT03816345","label":"excluded","evidence":[{"section":"exclusion","n":3,"quote":"Patients with prior therapy with an anti-PD-1 or anti-PD-L1","verdict":"not_met"}],"note":"Prior nivolumab excludes him (and he reports no autoimmune disease)."}]}

@@ -1,0 +1,17 @@
+{
+ "terms": {
+  "clinical trial": "ક્લિનિકલ ટ્રાયલ",
+  "care team": "સંભાળ ટીમ",
+  "possible match to discuss with your care team": "સંભવિત મેળ જેની ચર્ચા તમે તમારી સંભાળ ટીમ સાથે કરી શકો",
+  "eligibility criteria": "પાત્રતાના માપદંડ",
+  "inclusion criteria": "સમાવેશના માપદંડ",
+  "exclusion criteria": "બાકાતના માપદંડ",
+  "recruiting": "ભરતી ચાલુ છે",
+  "biomarker": "બાયોમાર્કર"
+ },
+ "banned": [
+  "તમે પાત્ર છો",
+  "તમે લાયક છો"
+ ],
+ "style": "Gujarati, respectful 'તમે'."
+}

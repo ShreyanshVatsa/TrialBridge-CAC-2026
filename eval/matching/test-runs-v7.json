@@ -1,0 +1,16 @@
+{
+  "note": "v7 test split (TREC 2022 + 2023 cancer topics): run once at the end of development, after all dev decisions.",
+  "runs": [
+    {
+      "at": "2026-10-19T23:44:51.835Z",
+      "sha": "e227ceacf084504e571d506821af9949880e4734",
+      "llm": true,
+      "llmStatus": {
+        "ok": 7,
+        "degraded": 0,
+        "quota": 0,
+        "not_run": 0
+      }
+    }
+  ]
+}

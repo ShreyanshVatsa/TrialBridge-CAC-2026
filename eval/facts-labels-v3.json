@@ -1,0 +1,857 @@
+{
+ "note": "v7 held-out sample of v1 rule facts (rules version 5). correct = the fact (key and direction) is a reasonable reading of the quoted criterion for a patient answering the matching question. provisional labels, not clinician-reviewed.",
+ "items": [
+  {
+   "id": "NCT06594939",
+   "key": "prior_chemotherapy",
+   "value": "required",
+   "ref": "I12",
+   "quote": "For patients with hepatitis B virus antigen (HBsAg) or core antibody (HBcAb) seropositivity, patients must have a negative hepatitis B viral load and an appropriate prophylaxis plan must be in place during chemotherapy therapy treatment. For all patients that are hepatitis B core antibody positive, they should take entecavir prophylaxis (0.5 mg by mouth daily) until 1 year from completion of chemotherapy. Hepatitis B viral load should be checked on these patients prior to starting chemotherapy and every 3 months thereafter if initial hepatitis B viral load is negative (±1 week if chemotherapy cycle is delayed). If hepatitis B viral load is positive, hepatology or ID referral is recommended, and hepatitis B viral load should be checked monthly and every 3 months for 12 months after end of treatment.",
+   "correct": false,
+   "why": "chemo named as a setting for HBV prophylaxis"
+  },
+  {
+   "id": "NCT05579366",
+   "key": "prior_chemotherapy",
+   "value": "required",
+   "ref": "I11",
+   "quote": "Participants with known or suspected deleterious germline or somatic BRCA mutations (as determined by Food and Drug Administration [FDA]-approved test in a Clinical Laboratory Improvement Amendments [CLIA]-certified laboratory; or locally approved equivalent) and who achieved a complete or partial response to platinum-based chemotherapy must have been treated with a poly ADP-ribose polymerase (PARP) inhibitor as maintenance treatment.",
+   "correct": false,
+   "why": "conditional on prior response; requirement is a PARP inhibitor"
+  },
+  {
+   "id": "NCT06384807",
+   "key": "prior_chemotherapy",
+   "value": "required",
+   "ref": "I2",
+   "quote": "Unresectable, incurable, locally advanced or metastatic epithelial-origin solid tumor that is refractory to standard therapies, or has no approved standard therapies, or no approved standard therapies at its current treatment stage. If applicable to the tumor type, participants must have received platinum-based chemotherapy, standard of care immunotherapy, and standard of care targeted therapies.",
+   "correct": false,
+   "why": "refractory to standard therapies or none available (alternatives, not chemo)"
+  },
+  {
+   "id": "NCT07740941",
+   "key": "prior_chemotherapy",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "Prior treatment with PD-1 Programmed cell death Protein 1 (PD-1) and Cytotoxic T-lymphocyte Antigen 4 (CTLA-4).",
+   "correct": false,
+   "why": "checkpoint inhibitors, not chemotherapy"
+  },
+  {
+   "id": "NCT06801834",
+   "key": "prior_chemotherapy",
+   "value": "required",
+   "ref": "I4",
+   "quote": "Documentation of radiological disease progression after 1 prior line of platinum-containing chemotherapy (defined as at least 2 cycles of treatment) with or without therapy directed against programmed cell death protein 1 (PD-1) or programmed cell death ligand 1 (PD-L1; PD-1 and PD-L1 are hereafter referred to as PD-(L)1) for ES-SCLC.",
+   "correct": true
+  },
+  {
+   "id": "NCT06340568",
+   "key": "prior_chemotherapy",
+   "value": "required",
+   "ref": "I7",
+   "quote": "* developed recurrence <12 months from completing platinum-based chemotherapy given as adjuvant therapy for Stage I to III disease, or\n* developed recurrence after platinum-based chemotherapy in the recurrent/metastatic setting.",
+   "correct": true
+  },
+  {
+   "id": "NCT07226999",
+   "key": "prior_chemotherapy",
+   "value": "required",
+   "ref": "I3",
+   "quote": "Treatment-free for at least 6 months since last chemo/radiotherapy, among those treated (with curative intent) with prior chemo/radiotherapy for limited-stage SCLC",
+   "correct": false,
+   "why": "conditional washout among those treated"
+  },
+  {
+   "id": "NCT07358260",
+   "key": "prior_chemotherapy",
+   "value": "required",
+   "ref": "I10",
+   "quote": "Eligibility Criteria for Enrollment The following criteria are required for initial study enrollment. Once enrolled, participants will need to meet specific criteria prior to lymphocyte apheresis, prior to the receipt of lymphodepletion chemotherapy and B7-H3.CD28Z.CART cell infusion as outlined in the Treatment Section of the Protocol.",
+   "correct": false,
+   "why": "lymphodepletion chemo is a study procedure"
+  },
+  {
+   "id": "NCT03990896",
+   "key": "prior_chemotherapy",
+   "value": "required",
+   "ref": "I5",
+   "quote": "* Triple negative breast cancer (defined as ER < 1%, PR < 1%, HER2 negative, as per ASCO CAP guidelines), with disease progression on at least one prior chemotherapy regimen in the metastatic setting.\n* Hormone receptor positive, HER2 negative disease with disease progression on at least one prior endocrine therapy in the metastatic setting or be considered inappropriate for endocrine therapy",
+   "correct": false,
+   "why": "one cohort option among several"
+  },
+  {
+   "id": "NCT07765446",
+   "key": "prior_chemotherapy",
+   "value": "excluded",
+   "ref": "E3",
+   "quote": "Prior exposure to neurotoxic chemotherapy",
+   "correct": false,
+   "why": "only neurotoxic chemotherapy"
+  },
+  {
+   "id": "NCT04899908",
+   "key": "prior_radiation",
+   "value": "required",
+   "ref": "I2",
+   "quote": "* Melanoma with intracranial growth consistent with tumor progression despite immunotherapy\n* Gastrointestinal primary\n* HER2 positive breast cancer (subtype assessed using most representative tissue available in opinion of enrolling clinician and/or study PI)\n* Cystic metastases\n* Metastases ≥2cm in maximal unidimensional size\n* Locally recurrent metastases after prior stereotactic radiation\n* Locally recurrent metastases after prior whole brain radiation *Patients with metastases from melanoma, GI primaries, or HER2+ breast cancer, as well as those with cystic metastases or metastases ≥2cm in maximal unidimensional size, who have local recurrences after prior brain-directed radiation can only be treated in the strata permitting prior radiation (last two strata above)",
+   "correct": false,
+   "why": "strata list; prior radiation in one stratum"
+  },
+  {
+   "id": "NCT04831580",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E6",
+   "quote": "Patients with a history of prior pelvic or abdominal radiotherapy.",
+   "correct": false,
+   "why": "site-specific (pelvic/abdominal) radiation"
+  },
+  {
+   "id": "NCT07759999",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E3",
+   "quote": "Participants who will be treated with a radiation plan of 5 fractions or fewer.",
+   "correct": false,
+   "why": "planned study radiation"
+  },
+  {
+   "id": "NCT03516708",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E3",
+   "quote": "Previous radiotherapy in the pelvic region or previous rectal surgery (e.g. TEM) or any investigational treatment for rectal cancer within the past month.",
+   "correct": false,
+   "why": "site-specific radiation / window"
+  },
+  {
+   "id": "NCT05758688",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "Prior course of pelvic radiation",
+   "correct": false,
+   "why": "site-specific (pelvic) radiation"
+  },
+  {
+   "id": "NCT02734537",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "I10",
+   "quote": "Patient must not have had previous irradiation to the head and neck that would result in overlap in radiation fields for the current disease",
+   "correct": false,
+   "why": "site-specific (head and neck, overlapping fields)"
+  },
+  {
+   "id": "NCT03804944",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E4",
+   "quote": "Previous radiotherapy of the same breast.",
+   "correct": false,
+   "why": "site-specific (same breast)"
+  },
+  {
+   "id": "NCT06744465",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E3",
+   "quote": "Prior breast cancer requiring surgery or radiation in either breast",
+   "correct": false,
+   "why": "other-malignancy context"
+  },
+  {
+   "id": "NCT07439094",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E2",
+   "quote": "Prior radiotherapy to ≥ 25% of bone marrow",
+   "correct": false,
+   "why": "extent-specific (>=25% marrow)"
+  },
+  {
+   "id": "NCT07124117",
+   "key": "prior_radiation",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "Less than 3 weeks from prior cytotoxic chemotherapy or radiation therapy; and less than 5 half-lives or 3 weeks, whichever is shorter, from prior biologic therapies, prior to the first dose of OBI-902.",
+   "correct": false,
+   "why": "washout window not parsed (Less than 3 weeks from)"
+  },
+  {
+   "id": "NCT06934889",
+   "key": "prior_surgery",
+   "value": "excluded",
+   "ref": "E3",
+   "quote": "Patients with prior therapy with EGFR targeting agents are ineligible because treatment with EGFR kinase inhibitors or other EGFR-targeted agents has the potential to deplete the tumor of EGFR-amplified or EGFR mutant cell populations and confound the evaluation of the investigational regimen. Patients would only be eligible if surgery on a recurrence after the EGFR-targeted therapy confirmed persistence of an EGFR alteration.",
+   "correct": false,
+   "why": "EGFR agents, no surgery fact"
+  },
+  {
+   "id": "NCT03785288",
+   "key": "prior_surgery",
+   "value": "excluded",
+   "ref": "I4",
+   "quote": "Subjects must have no measurable disease after surgery.",
+   "correct": false,
+   "why": "inclusion implies prior surgery, read as excluded"
+  },
+  {
+   "id": "NCT06624371",
+   "key": "prior_surgery",
+   "value": "excluded",
+   "ref": "E6",
+   "quote": "Patients must fully recover from all acute effects of prior surgical intervention.",
+   "correct": false,
+   "why": "recovery from surgery, not an exclusion of surgery"
+  },
+  {
+   "id": "NCT06330805",
+   "key": "prior_surgery",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "Previous radical surgery (prostatectomy) or any form of curative-intent ablation whether focal or whole-gland (e.g., cryosurgery, High-intensity focused ultrasound (HIFU), laser thermal ablation, etc.) for prostate cancer.",
+   "correct": true
+  },
+  {
+   "id": "NCT05195710",
+   "key": "prior_surgery",
+   "value": "required",
+   "ref": "I2",
+   "quote": "Anticipated standardized FLR (sFLR) that would require right portal vein embolization (PVE) to increase the sFLR prior to either a single major hepatectomy, or prior to the second stage hepatectomy as part of a two-stage hepatectomy strategy, all in the setting of curative-intent resection(s). This evaluation will be documented in the clinical chart",
+   "correct": false,
+   "why": "planned procedure"
+  },
+  {
+   "id": "NCT07278440",
+   "key": "prior_surgery",
+   "value": "excluded",
+   "ref": "E5",
+   "quote": "Patient participants and caregiver participants with medical condition, movement condition, pre-existing focal neurological deficits, new focal deficits concerning for recurrent or progressive PBT necessitating second line treatment, post operative deficits/wound, or medication use that contraindicates participation in moderate intensity exercise. Specific contraindications include the following: poorly controlled diabetes, recent cardiac event, neuromuscular disease, untreated orthostatic hypertension, recent surgery, acute hernia, acute rheumatoid arthritis, severe memory disorders, severe balance disorder, inability to ambulate without a walker or wheelchair, inability to stand for 3 minutes, severe hearing or vision problem",
+   "correct": false,
+   "why": "post-op neurological deficit context"
+  },
+  {
+   "id": "NCT03977233",
+   "key": "prior_surgery",
+   "value": "excluded",
+   "ref": "I7",
+   "quote": "Subject has received no prior chemotherapy or chemoradiotherapy for pancreatic cancer. Subjects have not previously received surgery to remove pancreatic cancer.",
+   "correct": true
+  },
+  {
+   "id": "NCT07048314",
+   "key": "prior_surgery",
+   "value": "required",
+   "ref": "I10",
+   "quote": "Patient is willing to attempt intercourse at least 5 times per month following urinary control after surgery",
+   "correct": true
+  },
+  {
+   "id": "NCT04910685",
+   "key": "prior_surgery",
+   "value": "excluded",
+   "ref": "E6",
+   "quote": "Participant has a history of a primary malignancy that has been diagnosed or required therapy within 3 years. The following prior malignancies are not exclusionary: completely resected basal cell and squamous cell skin cancer, curatively treated localized prostate cancer, and completely resected carcinoma in situ of any site.",
+   "correct": false,
+   "why": "other-malignancy carve-out"
+  },
+  {
+   "id": "NCT02918474",
+   "key": "prior_surgery",
+   "value": "excluded",
+   "ref": "E2",
+   "quote": "Prior history of bilateral prophylactic mastectomy",
+   "correct": false,
+   "why": "only prophylactic mastectomy"
+  },
+  {
+   "id": "NCT06940180",
+   "key": "prior_immunotherapy",
+   "value": "excluded",
+   "ref": "E4",
+   "quote": "Has received prior therapy with an anti-PD-1/L1 agent or any other agent directed to another stimulatory or co-inhibitory T-cell receptor.",
+   "correct": true
+  },
+  {
+   "id": "NCT06980038",
+   "key": "prior_immunotherapy",
+   "value": "excluded",
+   "ref": "E5",
+   "quote": "Any previous treatment with a PD-1 or PD-L1 inhibitor, including cemiplimab (REGN2810). It is unclear how prior exposure to immunotherapy would impact future use of checkpoint inhibitors",
+   "correct": true
+  },
+  {
+   "id": "NCT07247110",
+   "key": "prior_immunotherapy",
+   "value": "excluded",
+   "ref": "E2",
+   "quote": "Arm MK-4716 + Pembrolizumab: Has received any prior immunotherapy and was discontinued from that treatment",
+   "correct": false,
+   "why": "arm-specific and discontinued only"
+  },
+  {
+   "id": "NCT07172282",
+   "key": "prior_immunotherapy",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "• Systemic therapy with immunosuppressive agents within 7 days or use of any investigational drug within 28 days before the start of trial treatment.\n* Prior exposure to any immune checkpoint blockade agent or any other immunomodulatory agent used as antineoplastic therapy for metastatic CRC.\n* Receipt of any organ transplantation, including allogeneic stem cell transplantation.\n* Active autoimmune disease that might deteriorate when receiving an immunostimulatory agent, such as rheumatoid arthritis, which in the opinion of the Investigator might impair the subject's tolerance or ability to participate in the trial.\n* Known severe hypersensitivity reactions to monoclonal antibodies.\n* Failure to recover from any other toxicity (other than neuropathy or immune-related toxicity) related to previous anticancer treatment to grade ≤2.\n* Subject is pregnant or breast feeding or planning to become pregnant while enrolled in the study, up to the final (end of treatment) visit.\n* Participants unable to undergo endovascular placement of TriNav PEDD catheter due to any reason.\n* Arterial or venous thrombotic or embolic events such as cerebrovascular accident (including transient ischemic attacks), deep vein thrombosis, or pulmonary embolism within 6 months before the start of study medication (except for adequately treated catheter-related venous thrombosis occurring more than 1 month before the start of study medication).\n* Congestive heart failure ≥ New York Heart Association (NYHA) class 2.\n* Unstable angina (angina symptoms at rest), new-onset angina (begun within the last 3 months), myocardial infarction less than 6 months before start of study drug.\n* Uncontrolled cardiac arrhythmias.\n* Poorly controlled hypertension, defined as blood pressure consistently above 150/90 mmHg despite optimal medical management.\n* Major surgical procedure or significant traumatic injury within 28 days before start of study medication. Note: If participants received major surgery, they must have recovered adequately from the toxicity and/or complications from the intervention prior to starting therapy.\n* Non-healing wound, non-healing ulcer, or non-healing bone fracture.\n* Participants with evidence or history of any bleeding diathesis, irrespective of severity.\n* Any hemorrhage or bleeding event NCI CTCAE Grade ≥ 3 within 28 days prior to the start of study medication.\n* Significant acute gastrointestinal disorders with diarrhea as a major symptom e.g., Crohn's disease, malabsorption, or NCI CTCAE grade ≥ 2 diarrhea of any etiology.\n* Participants with an active, known or suspected autoimmune disease. Participants with type I diabetes mellitus (T1DM), hypothyroidism only requiring hormone replacement, skin disorders (such as vitiligo, psoriasis, or alopecia) not requiring systemic treatment, or conditions not expected to recur in the absence of an external trigger are permitted to enroll.\n* Participants with a condition requiring systemic treatment with either corticosteroids (>10 mg daily prednisone equivalent) or other immunosuppressive medications within 14 days of start of study treatment. Inhaled or topical steroids, and adrenal replacement steroid doses >10 mg daily prednisone equivalent, are permitted in the absence of active autoimmune disease.\n* History of (non-infectious) pneumonitis that required steroids, current pneumonitis or interstitial lung disease.\n* Ongoing infection NCI-CTCAE grade >2 requiring systemic therapy.\n* Known history of positive test for HIV or known AIDS.\n* Any known positive test result for hepatitis B virus (HBV) or hepatitis C virus (HCV) indicating presence of virus, e.g. Hepatitis B surface antigen (HBsAg, Australia antigen) positive, or Hepatitis C antibody (anti-HCV) positive (except if HCV-RNA negative).\n* Pregnant or lactating women.\n* Previous treatment with live vaccine within 30 days of planned start of study drugs (seasonal flu vaccines that do not contain a live virus are permitted).\n* Known history of allergy or hypersensitivity to study drug components.\n* History or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the trial or interfere with the participation for the full duration of the trial.\n* Any condition that would prohibit the understanding or rendering of informed consent.\n* Any medical condition that in the opinion of the investigator would interfere with the patient's safety or compliance while on trial.",
+   "correct": true
+  },
+  {
+   "id": "NCT07205718",
+   "key": "prior_immunotherapy",
+   "value": "excluded",
+   "ref": "E23",
+   "quote": "Concurrent chemotherapy, immunotherapy, biologic, or hormonal therapy (with the exception of adjuvant endocrine therapy for a history of breast cancer). Concurrent use of hormones for noncancer-related conditions is acceptable (except for corticosteroid hormones).",
+   "correct": false,
+   "why": "concurrent, not prior"
+  },
+  {
+   "id": "NCT06963905",
+   "key": "prior_immunotherapy",
+   "value": "required",
+   "ref": "I4",
+   "quote": "1. Is defined as unresectable/metastatic disease.\n2. Is Human Epidermal Growth Factor Receptor 2 (HER2)-negative, defined as HER2- immunohistochemistry (IHC) 0, 1+ or 2+ ISH negative, and estrogen receptor (ER)- and progesterone receptor (PgR)- negative, both defined as IHC <10%\n3. Any PD-L1 status measured by IHC via CPS by IHC (defined by the number of PD-L1 staining cells [tumor cells, lymphocytes, macrophages] divided by the total number of viable tumor cells, multiplied by 100) via FDA-approved SP263 assay.\n4. Has been treated with up to one line of systemic cytotoxic chemotherapy with or without immunotherapy in the metastatic setting. If recurrence occurred within six months of (neo)adjuvant chemotherapy, (neo)adjuvant chemotherapy would count as one line of therapy.\n5. Prior immune checkpoint inhibition with systemic chemotherapy is required in either neo(adjuvant) or metastatic settings\n6. Prior targeted therapies (e.g., olaparib, or others upon discussion with study sponsor-investigator) do not count as systemic cytotoxic chemotherapy lines and are unlimited prior to enrolment.",
+   "correct": true
+  },
+  {
+   "id": "NCT03804944",
+   "key": "prior_immunotherapy",
+   "value": "excluded",
+   "ref": "E5",
+   "quote": "Has received prior therapy with an anti-PD-1, anti-PD-L1, or anti-PD-L2 agent or with an agent directed to another stimulatory or co-inhibitory T-cell receptor (eg, CTLA-4, OX-40, CD137).",
+   "correct": true
+  },
+  {
+   "id": "NCT06006013",
+   "key": "prior_immunotherapy",
+   "value": "excluded",
+   "ref": "E2",
+   "quote": "Prior treatment with CD137 agonists or immune checkpoint blockade therapies, including anti-CTLA-4, anti-PD-1, and anti-PD-L1 therapeutic antibodies",
+   "correct": true
+  },
+  {
+   "id": "NCT05019703",
+   "key": "prior_immunotherapy",
+   "value": "excluded",
+   "ref": "E3",
+   "quote": "Prior treatment with immune checkpoint blockade therapies, including anti-CTLA-4, anti-PD-1, and anti-PD-L1 therapeutic antibodies if given in combination with a VEGF-targeted tyrosine kinase inhibitor (TKI). Patients receiving prior anti-PD-1, anti-PD-L1, with or without anti-CTLA-4 antibodies will not be excluded",
+   "correct": false,
+   "why": "conditional on combination with VEGF TKI"
+  },
+  {
+   "id": "NCT06782555",
+   "key": "prior_immunotherapy",
+   "value": "excluded",
+   "ref": "E2",
+   "quote": "Patients with prior history of any Grade 3 or Grade 4 AEs from anti-CTLA-4, anti-PD-1/PD-L1, or anti-CTLA-4 and anti-PD-1/PD-L-1 combination therapy.",
+   "correct": false,
+   "why": "conditional on grade 3-4 adverse events"
+  },
+  {
+   "id": "NCT06131840",
+   "key": "prior_targeted_therapy",
+   "value": "required",
+   "ref": "I2",
+   "quote": "* Participants in Part A (dose escalation) and Part B (dose optimization) must have histologically- or cytologically-confirmed metastatic or unresectable solid tumor malignancy. Must have relapsed, refractory, or progressive disease, and should have no appropriate standard therapy available.\n* Participants in Part A must have one of the following tumor types: colorectal cancer (CRC); gastric carcinoma (GC) or gastroesophageal junction adenocarcinoma (GEJ); non-small cell lung cancer (NSCLC); or pancreatic ductal adenocarcinoma (PDAC).\n* The tumor types to be enrolled in Part B will be identified by the sponsor from among those specified in Part A.\n* Participants in Part C (dose expansion) must have one of the following histologically- or cytologically-confirmed metastatic or unresectable solid tumor malignancies.\n* CRC (adenocarcinoma of the colon or rectum) and must have received no more than 2 prior chemotherapy regimens for the treatment of advanced colorectal cancer and evidence of either progressive disease or intolerance to their last regimen.\n* PDAC with one or more metastatic lesions measurable by computed tomography/magnetic resonance imaging according to RECIST v1.1 criteria; and must have received no more than 1 prior chemotherapy regimen for the treatment of advanced PDAC and evidence of either progressive disease or intolerance to that regimen.\n* GC or GEJ and must have received prior platinum and fluoropyrimidine-based chemotherapy.\n* NSCLC and must have received platinum-based therapy. If eligible and consistent with local standard of care must have received a PD-1/PD-L1 inhibitor. In addition, participants with tumor genomic mutations/alterations for which approved targeted therapies are available per local standard of care, must have received such therapies.\n* Small cell lung cancer (SCLC) and must have received platinum-based therapy for extensive-stage disease and no more than 3 prior lines of therapy. If eligible and consistent with local standard of care must have received a PD 1/PD-L1 inhibitor.\n* CRC participants in Part D and Part E (bevacizumab combination therapy) must have histologically confirmed unresectable or metastatic adenocarcinoma of the colon or rectum. Received a maximum of 2 prior chemotherapy regimens for the treatment of advanced colorectal cancer and had demonstrated progressive disease or intolerance to their last regimen.\n* CRC participants in Part D and Part E (5FU/LV + bevacizumab and 5FU/LV + oxaliplatin + bevacizumab combination therapy) must have histologically confirmed unresectable or metastatic adenocarcinoma of the colon or rectum. Must not have received a prior TOPO1 inhibitor (such as irinotecan or nanoliposomal irinotecan) in any setting. 1L cohorts: No prior chemotherapy for advanced disease. 2L cohorts (applicable to 5FU/LV + bevacizumab combination only): 1 prior chemotherapy regimen for the treatment of advanced disease, which must have included a fluoropyrimidine and oxaliplatin.\n> 2L PDAC participants in Part E (5FU/LV combination therapy) must have histologically or cytologically confirmed metastatic pancreatic ductal adenocarcinoma. One or more metastatic lesions measurable by computed tomography/magnetic resonance imaging according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria.\n> 1L PDAC participants in Part E (5FU/LV + oxaliplatin combination therapy) must have histologically or cytologically confirmed metastatic pancreatic ductal adenocarcinoma that has not been previously treated in the metastatic setting. One or more metastatic lesions measurable by computed tomography/magnetic resonance imaging according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria. No prior chemotherapy for PDAC with the following exception: Patients who received adjuvant/neoadjuvant chemotherapy and who had recurrence more than 12 months after completion of adjuvant/neoadjuvant chemotherapy are eligible.",
+   "correct": false,
+   "why": "no standard therapy; no targeted requirement"
+  },
+  {
+   "id": "NCT05800665",
+   "key": "prior_targeted_therapy",
+   "value": "required",
+   "ref": "I3",
+   "quote": "Prior therapy with a second-generation androgen receptor (AR)-targeted therapy (e.g., abiraterone, enzalutamide, apalutamide, darolutamide).",
+   "correct": false,
+   "why": "AR-targeted (hormone) therapy, not targeted therapy"
+  },
+  {
+   "id": "NCT07218809",
+   "key": "prior_targeted_therapy",
+   "value": "excluded",
+   "ref": "E6",
+   "quote": "Prior treatment with any FRα-targeted therapy, including MIRV, or any TOP1i ADC.",
+   "correct": false,
+   "why": "class-specific (FRa-targeted / ADC)"
+  },
+  {
+   "id": "NCT05940493",
+   "key": "prior_targeted_therapy",
+   "value": "excluded",
+   "ref": "E8",
+   "quote": "Prior therapy with any CDK4/6 inhibitor. Prior therapy is defined as therapeutic dosing.",
+   "correct": false,
+   "why": "class-specific (CDK4/6)"
+  },
+  {
+   "id": "NCT07332455",
+   "key": "prior_targeted_therapy",
+   "value": "excluded",
+   "ref": "E4",
+   "quote": "Prior therapy with Androgen receptor (AR) Degrader targeted therapy. Other protocol-defined inclusion/exclusion criteria apply.",
+   "correct": false,
+   "why": "class-specific (AR degrader)"
+  },
+  {
+   "id": "NCT06747845",
+   "key": "prior_targeted_therapy",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "Prior treatment with a PARP inhibitor, ipilimumab, or other cytotoxic T-lymphocyte-associated-4 protein (CTLA-4) inhibitor.",
+   "correct": false,
+   "why": "class-specific (PARP / CTLA-4)"
+  },
+  {
+   "id": "NCT05128825",
+   "key": "prior_targeted_therapy",
+   "value": "required",
+   "ref": "I5",
+   "quote": "1. Subjects must have platinum-resistant disease\n2. Part 2c: Subjects with PROC may have 1 to 4 prior lines or regimens. Prior treatment in this cohort includes a weekly taxane regimen, either as single agent or in combination, per protocol\n3. Prior bevacizumab treatment is required, if eligible per standard of care\n4. Prior PARP inhibitor treatment is required if BRCA 1/2 mutation or HRD, if eligible per standard of care\n5. Prior mirvetuximab treatment is required, if eligible per standard of care",
+   "correct": false,
+   "why": "taxane / platinum, not targeted"
+  },
+  {
+   "id": "NCT06500273",
+   "key": "prior_targeted_therapy",
+   "value": "excluded",
+   "ref": "E2",
+   "quote": "Prior treatment with anti-CD19 targeted therapies.",
+   "correct": false,
+   "why": "class-specific (anti-CD19)"
+  },
+  {
+   "id": "NCT06857006",
+   "key": "prior_targeted_therapy",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "Current use of cytotoxic chemotherapy within 3 days of treatment. There are no restrictions on the use of immunotherapy during treatment. TKIs known to be radiation sensitizers such as BRAF should be held at least 24 hours prior to treatment.",
+   "correct": false,
+   "why": "current use / hold instructions"
+  },
+  {
+   "id": "NCT06351527",
+   "key": "prior_targeted_therapy",
+   "value": "required",
+   "ref": "I2",
+   "quote": "Subjects with histopathologically and/or flow cytometry-confirmed diseases according to the 2016 World Health Organization (WHO) classification criteria for lymphohematopoietic neoplasms or meeting the International Workshop on Chronic Lymphocytic Leukemia (iwCLL) criteria: relapsed or refractory CLL/SLL, relapsed or refractory MCL. Patients must have received at least two prior lines of adequate systemic therapy before study entry, and at least one prior systemic therapy should include Bruton's kinase inhibitor (BTKi).",
+   "correct": true
+  },
+  {
+   "id": "NCT05589818",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I2",
+   "quote": "Patients must not have received any systemic therapy for metastatic cancer",
+   "correct": false,
+   "why": "systemic therapy setting, not a metastatic requirement"
+  },
+  {
+   "id": "NCT07219147",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I8",
+   "quote": "Progressive castration-resistant metastatic prostate cancer with pathologically confirmed adenocarcinoma of the prostate without small cell features",
+   "correct": true
+  },
+  {
+   "id": "NCT06643884",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I1",
+   "quote": "Have a clinical diagnosis of Metastases to the Choroid, from a histopathologically or cytologically confirmed tumor.",
+   "correct": true
+  },
+  {
+   "id": "NCT05805371",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I8",
+   "quote": "* Documented PSCA+ tumor expression as evaluated by the COH Pathology Clinical Trials Specimen Qualification Laboratory (CTSQL)\n* Fresh or archival biopsy samples may be tested for PSCA expression during screening for eligibility purposes. The results from soft tissue biopsies will be used to confirm eligibility for participants who have a soft-tissue lesion biopsy obtained, but bone biopsy staining results will not impact eligibility since immunohistochemistry (IHC) staining for PSCA has not been optimized in bone specimens. Subjects who undergo bone biopsy on study will be qualified based on the archival tissue result\n* Progression of disease manifest by one of the following means during treatment with at least one advanced androgen targeted therapy (e.g., abiraterone or enzalutamide):\n* Rising prostate specific antigen (PSA) documented on 2 occasions at least 7 days apart, with absolute increase > 2 ng/dL despite testosterone < 50 OR\n* Radiographic evidence of new metastatic foci on CT or bone scan, or soft tissue progression by Response Evaluation Criteria in Solid Tumors (RECIST)\n* For treatment plan 2, subjects must have at least one and up to 3 metastatic lesions which have not previously been radiated and which is safe for treatment with radiation 16 gray (Gy) in 2 fractions",
+   "correct": false,
+   "why": "treatment-plan-specific / alternatives"
+  },
+  {
+   "id": "NCT06984562",
+   "key": "metastatic",
+   "value": "excluded",
+   "ref": "I3",
+   "quote": "• This includes the following- per NCCN criteria*: 2.1 Unreconstructible involvement with the superior mesenteric vein or portal vein due to tumor or bland thrombus OR 2.2 Solid tumor contact with greater than 180 degrees of the superior mesenteric artery or celiac artery OR 2.3. Solid tumor contact with the aorta OR 2.4. Patients with non-metastatic disease that is inoperable by virtue of the operation posing excessive risk to the patient\n*All patients must have been reviewed in the multidisciplinary conference and determined to have unresectable disease by a pancreatic surgeon and to have received or be ineligible for induction chemotherapy based on medical oncology assessment. Documentation of this review in EPIC meeting minutes will satisfy this requirement.",
+   "correct": true
+  },
+  {
+   "id": "NCT06600698",
+   "key": "metastatic",
+   "value": "excluded",
+   "ref": "I17",
+   "quote": "Any T stage, N0-1, M0, any Gleason grade.",
+   "correct": true
+  },
+  {
+   "id": "NCT06008275",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I2",
+   "quote": "1. Female patients ≥18 years of age\n2. Have a diagnosis of metastatic TNBC previously treated with standard anthracycline, cyclophosphamide, and taxane chemotherapy, unless there was a contraindication to doxorubicin, in which case prior treatment with this agent is not required.\nNote. TNBC defined as ER-negative tumors with ≤10% tumor nuclei immunoreactivity, or \"ER Low Positive\" as defined by the updated ASCO/CAP guidelines 2020.\n3. Have not received more than 4 prior chemotherapy regimens for metastatic disease. Prior platinum and/or taxane therapy in the adjuvant or metastatic setting is permitted. Patients with more than 4 prior regimens may be allowed on study per physician discretion, if ECOG PS is 0-1.\n4. Have locoregional (e.g., breast, chest wall, regional lymphatic) or pulmonary or hepatic metastatic disease that is amenable to core needle biopsy. If a research biopsy from a patient's metastatic disease cannot be safely obtained, a skin biopsy is permitted. If a skin biopsy cannot be safely obtained, patients may still be eligible, per physician discretion.\n5. Have an Eastern Cooperative Oncology Group (ECOG) performance status of 0-1\n6. Have adequate hematologic function, defined by:\n1. Absolute neutrophil count (ANC) >1500/µL\n2. Platelet count ≥100,000/ µL\n3. Hemoglobin ≥9 g/dL or ≥5.6 mmol/L\n7. Have adequate liver function, defined by:\n1. AST and ALT ≤2.5 x the upper limit of normal (ULN) or ≤5 x ULN in presence of liver metastases\n2. Total bilirubin ≤1.5 x ULN OR direct bilirubin ≤ULN for patients with total bilirubin levels >1.5 × ULN\n8. Have adequate renal function, defined by:\na. Serum creatinine ≤1.5 x ULN or calculated creatinine clearance of ≥30 mL/min\n9. Patients who have a history of brain metastasis are eligible for the study provided that all the following criteria are met:\n10. Brain metastases which have been treated\n11. Off-treatment with steroids before administration of the first dose of treatment\n12. No ongoing requirement for dexamethasone or anti-epileptic drugs\n13. No clinical or radiological evidence of progression of brain metastases\n14. Patients must be accessible for treatment and follow-up.\n15. All patients must be able to understand the investigational nature of the study and give written informed consent prior to study entry.",
+   "correct": true
+  },
+  {
+   "id": "NCT06562543",
+   "key": "metastatic",
+   "value": "excluded",
+   "ref": "E3",
+   "quote": "Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) >2.5 times ULN in participants without hepatic metastases; ALT or AST >5 times ULN in participants with hepatic metastases.",
+   "correct": false,
+   "why": "lab thresholds by hepatic metastases"
+  },
+  {
+   "id": "NCT05235165",
+   "key": "metastatic",
+   "value": "required",
+   "ref": "I6",
+   "quote": "Patients must have evidence of metastatic lung disease at the time of initial diagnosis, or at time of 1st recurrence following completion of therapy for initially localized disease.",
+   "correct": true
+  },
+  {
+   "id": "NCT04084730",
+   "key": "metastatic",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "Patients with distant metastasis",
+   "correct": true
+  },
+  {
+   "id": "NCT06636175",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I8",
+   "quote": "Clinical or pathologically defined MM or lymphoma including both newly diagnosed, relapsed or refractory disease:",
+   "correct": false,
+   "why": "newly diagnosed, relapsed or refractory"
+  },
+  {
+   "id": "NCT06483100",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I2",
+   "quote": "Newly diagnosed multiple myeloma (either untreated or receiving first line therapy).",
+   "correct": true
+  },
+  {
+   "id": "NCT06249191",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I1",
+   "quote": "For both phases of the study, participant must be 18-75 years of age and have previously untreated high-grade B cell lymphoma (HGBCL) or diffuse large B cell lymphoma (DLBCL), including transformed DLBCL per the World Health Organization (WHO) 2022 classification, and with documented c-Myc rearrangement on fluorescence in situ hybridization (FISH) testing. Eligible types of c-Myc rearrangements will be performed by FISH testing and may include any single MYC rearrangement (single-hit lymphoma [SHL]), Double hit (DHL) lymphoma or and triple hit (THL) lymphoma defined by translocations of MYC and BCL2 (DHL) and BCL6 (THL)",
+   "correct": true
+  },
+  {
+   "id": "NCT05443737",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I1",
+   "quote": "Newly diagnosed cancer or cancer relapse",
+   "correct": false,
+   "why": "newly diagnosed or relapse"
+  },
+  {
+   "id": "NCT06225310",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I16",
+   "quote": "* a monoclonal immunoglobulin spike on serum electrophoresis of at least 0.5 g/dL and/or urine monoclonal protein levels of at least 200 mg/24 hours\n* for patients without measurable serum and urine M-protein levels, an involved SFLC > 100 mg/L or abnormal SFLC ratio\n* for patients with IgD MM, a monoclonal immunoglobulin IgD of at least 5500 mg/L or meet other measurable disease eligibility criteria\n* for patients with IgA MM, total IgA of > 700 mg/dL 5. Currently has progressive MM: MM patients that are relapsed or have refractory disease from at least 3 regimens or lines of therapy are eligible for enrollment provided they fulfill the other eligibility criteria:\n* patients are considered relapsed, when they progress greater than 60 days from their last dose of treatment\n* patients are refractory when they progress while currently receiving the treatment or within 8 weeks of its last dose 6. Adequate hepatic function within 14 days prior to C1D1: Total bilirubin < 1.5 × upper limit of normal (ULN) (except patients with Gilbert's syndrome who must have a total bilirubin of < 3 × ULN), and Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) normal to < 2 × ULN.\n7. Adequate renal function within 14 days prior to C1D1 as determined by OR estimated CrCl of > 60 mL/min, calculated using the Cockcroft and Gault formula (140 - Age) • Mass (kg)/ (72 • creatinine mg/dL); multiply by 0.85 if female (87)(Appendix 5).\n8. Adequate hematopoietic function within 14 days prior to C1D1: total WBC count ≥1500/mm3, ANC ≥1000/mm3, hemoglobin ≥8.5 g/dL and platelet count ≥75,000/mm3 (patients for whom <50% of BM nucleated cells are plasma cells) or ≥50,000/mm3 (patients for whom ≥50% of BM nucleated cells are plasma cells).\n9. Patients receiving hematopoietic growth factor support, including erythropoietin, darbepoetin, G-CSF, GM-CSF, and platelet stimulators (e.g., eltrombopag, romiplostim, or interleukin-11) must have a 2-week interval between growth factor support and the Screening assessments, but they may receive growth factor support during the study.\n10. Patients must have:\n* At least a 2-week interval from the last red blood cell (RBC) transfusion prior to the start of study treatment\n* At least a 1-week interval from the last platelet transfusion prior to the start of study treatment\n* However, patients may receive RBC and/or platelet transfusions as clinically indicated per institutional guidelines during the study 11. Female patients of childbearing potential (FCBP) must have a negative serum pregnancy test at Screening. Female patients of childbearing potential and fertile male patients who are sexually active must use highly effective methods of contraception throughout the study and for one month following the last dose of study treatment. Male patients must agree not to donate sperm during the study treatment period. Specifically:\n* FCBP† must have a negative serum or urine pregnancy test with a sensitivity of at least 25 mIU/mL within 10 - 14 days prior to and again within 24 hours of starting treatment and must either commit to continued abstinence from heterosexual intercourse or use acceptable methods of birth control, one highly effective method and one additional effective method AT THE SAME TIME, and at least 28 days before she starts therapy. FCBP must also agree to ongoing pregnancy testing. Men must agree to use a latex condom during sexual contact with a FCBP even if they have had a vasectomy. All subjects must be counseled at a minimum of every 28 days about pregnancy precautions and risks of fetal exposure.\n† A FCBP (female of childbearing potential) is a sexually mature woman who: 1) has not undergone a hysterectomy or bilateral oophorectomy; or 2) has not been naturally postmenopausal for at least 24 consecutive months (i.e., has had menses at any time in the preceding 24 consecutive months) 12. Able to take antiplatelet therapy if platelet count is above 30 x 109/L. Options include aspirin (acetylsalicylic acid, ASA) at 81 or 325/mg/daily, warfarin low molecular weight hepairin, Pradaza, Eliquis, or Xarelto.\n13. Patients with history of human immunodeficiency virus (HIV) are eligible if they have CD4+ T cell counts ≥350 cells/µL, negative viral load per institutional standard, and no history of acquired immunodeficiency syndrome (AIDS)-defining opportunistic infections in the last year.\n14. Patients with untreated hepatitis C virus (HCV) are eligible if there is a documentation of negative viral load per institutional standard.\n15. Age ≥ 18 years of age. 16. Willing and able to provide written informed consent in accordance with federal, local, and institutional guidelines. The patient must provide informed consent prior to the first screening procedure.\n17. Able to adhere to the study visit schedule and other protocol requirements.",
+   "correct": false,
+   "why": "untreated hepatitis C, not cancer"
+  },
+  {
+   "id": "NCT03661307",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I5",
+   "quote": "Patients with newly diagnosed AML with poor risk complex karyotype and/or TP53 deletions/mutations equal or younger than 60 year old",
+   "correct": true
+  },
+  {
+   "id": "NCT07107750",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I3",
+   "quote": "No prior systemic treatment for advanced unresectable or metastatic BTC with the following exceptions:",
+   "correct": true
+  },
+  {
+   "id": "NCT05009992",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I14",
+   "quote": "Cohort 4A^1 and 4B^1 (participants with newly diagnosed DMG prior to radiation): Must be able to begin standard of care radiation therapy on study within 6 weeks of diagnosis.",
+   "correct": false,
+   "why": "cohort-specific"
+  },
+  {
+   "id": "NCT04302025",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I2",
+   "quote": "Newly diagnosed early-stage NSCLC stages IB, IIA, IIB, IIIA, or selected IIIB (T3N2 only) NSCLC of squamous or non-squamous histology. Staging should be based on the 8th edition of the American Joint Committee on Cancer (AJCC)/Union Internationale Contre le Cancer (UICC) NSCLC staging system",
+   "correct": true
+  },
+  {
+   "id": "NCT07242118",
+   "key": "newly_diagnosed",
+   "value": "required",
+   "ref": "I4",
+   "quote": "Previously untreated OR previously treated with primary ET or chemotherapy, with either stable or progressive localized disease.",
+   "correct": false,
+   "why": "previously untreated OR treated"
+  },
+  {
+   "id": "NCT06649812",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I4",
+   "quote": "Patient must have relapsed and/or refractory disease after at least 1 prior anthracycline and anti-CD20 antibody-containing regimen",
+   "correct": true
+  },
+  {
+   "id": "NCT06678659",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I2",
+   "quote": "Have experienced progressive disease, relapsed disease, or be intolerant to at least one established standard systemic anti-cancer treatment for a given tumor type, or have been considered ineligible for standard therapy.",
+   "correct": false,
+   "why": "or ineligible for standard therapy"
+  },
+  {
+   "id": "NCT07528352",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I3",
+   "quote": "* Histologically confirmed large b-cell lymphoma (LBCL), including DLBCL not otherwise specified, including DLBCL arising from indolent lymphoma, and high-grade B-cell lymphoma with:\n* Relapsed or refractory disease with at least 2 prior systemic therapies",
+   "correct": true
+  },
+  {
+   "id": "NCT05317858",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I5",
+   "quote": "Participant is a NSCLC subject prescribed immune checkpoint inhibitor systemic therapy according to on-label use with the target brain lesion(s) measuring ≥ 0.5 cm in longest diameter. Target mets may include: De novo mets for which surgery and radiation can be deferred, Mets with or without history of prior radiation, Mets with history of radiation after at least 8 weeks since last radiation treatment, and In the event a previously treated met has progressed according to institutional practice within 4 weeks post radiation treatment, the met may be study eligible, and/or if in the opinion of the Investigator, the subject may benefit from the study procedure.",
+   "correct": false,
+   "why": "no treatment-history requirement"
+  },
+  {
+   "id": "NCT06303193",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I7",
+   "quote": "Participants 12-17 years of age with MDS must be relapsed/refractory OR ineligible to receive immunosuppressive therapy and hematopoietic stem cell transplantation",
+   "correct": false,
+   "why": "or ineligible for therapy"
+  },
+  {
+   "id": "NCT06026410",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I3",
+   "quote": "* Arm #1 (KO-2806 monotherapy): Patients who have progressed on, or are refractory to, standard of care (SOC) treatments with advanced solid tumors, specifically: HRAS-mutant and/or amplified tumors (any solid tumor type); HRAS overexpression (only for HNSCC tumors); KRAS and/or NRAS, and/or HRAS-mutant and/or amplified NSCLC or CRC; KRAS-mutant and/or amplified PDAC\n* Arm #2 (Combination): Patients who have received at least 1 prior systemic therapy with IO-based treatment for locally advanced or metastatic RCC with predominantly clear cell subtype; non-clear cell RCC patients who are either treatment-naïve or have received any prior systemic treatment for locally advanced and metastatic RCC.\n* Arm #3 (Combination): Patients who have received at least 1 prior systemic therapy including available approved SOC treatments for KRAS G12C-mutant locally advanced or metastatic NSCLC, CRC, or PDAC.\n* Arm #4 (Combination): Patients must be cabozantinib-naïve and have received at least 1 prior systemic therapy with IO-based treatment for locally advanced or metastatic ccRCC, but no more than 3 prior systemic anticancer therapies.\n* Arm #5 (Cabozantinib monotherapy): Patients must be cabozantinib-naïve and have received at least 1 prior systemic therapy with IO-based treatment for locally advanced or metastatic ccRCC, but no more than 3 prior systemic anticancer therapies.\n* Arm #6 (Cabozantinib rollover to combination): Patients must be cabozantinib-naïve and have received at least 1 prior systemic therapy with IO-based treatment for locally advanced or metastatic ccRCC, but no more than 3 prior systemic anticancer therapies.\n* Arm #7 (Combination): Patients who have received at least 1 prior systemic therapy including available approved SOC treatments for KRAS G12C-mutant locally advanced or metastatic NSCLC",
+   "correct": false,
+   "why": "arm-specific"
+  },
+  {
+   "id": "NCT06736379",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I4",
+   "quote": "Subjects must have progressed following therapy with at least one PD-1 or PD-L1 checkpoint inhibitor (regardless of PD-L1 expression status).",
+   "correct": true
+  },
+  {
+   "id": "NCT06879340",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I4",
+   "quote": "A. Patients with relapsed or refractory B-Cell ALL i. Demonstration of one or more antigens of interest (CD19, CD20, CD22) in most recent disease evaluation prior to study entry and within 30 days of study entry.\nii. Patients with relapsed/refractory disease in blood, marrow, and extramedullary sites including CSF will be eligible when there is immunophenotypic evidence of CD19 and/or CD20 and/or CD22 expression\niii. Primary refractory disease at study entry defined as: A morphologic complete response has never been achieved prior to study entry.\niv. Early first relapse at study entry defined as: Disease recurrence by morphologic assessment after duration of first remission at ≤ 18 months\nv. Relapsed Refractory disease (first or later relapse) at study entry defined as: Morphologic complete response was not achieved after initiation of a second-line (or later) systemic therapy\nvi. Second or greater relapse at study entry defined as: Any disease recurrence following a second or later complete response (with treatment history including two or more lines of systemic therapy)\nvii. Additional considerations beyond above criteria:\n* Patients with relapsed or refractory disease after allogeneic stem cell transplantation must be >100 days from HSCT to be eligible for study participation. Furthermore, post-HSCT immunosuppressive medications must be discontinued for at least 4 weeks prior to study entry\n* Prior CAR-T therapy is permissible if ≥ 3 months from therapy completion\n* Morphological disease in the bone marrow Note: Morphologic disease is defined as blasts being at least 5% in the bone marrow.\nB. Histologically confirmed aggressive B cell NHL, including the following types defined by WHO 2008 after 2 or more lines of prior therapy:\ni. DLBCL not otherwise specified; T cell/histiocyte rich large B cell lymphoma; DLBCL associated with chronic inflammation; Epstein-Barr virus (EBV)+ DLBCL of the elderly; Primary cutaneous DLBCL, leg type; OR ii. Primary mediastinal (thymic) large B cell lymphoma iii. Follicular lymphoma 3b and transformation of follicular lymphoma to DLBCL will also be included iv. High-grade B cell lymphoma v. Chemotherapy-refractory disease, defined as one or more of the following:\n* Refractory disease is defined as progressive or stable disease as the best response to the most recent prior therapy or relapse within 12 months of autologous stem cell transplantation. Two prior lines of therapy are required for LBCL eligibility. The second line therapy may be chemotherapy based, autologous stem cell transplantation, or CAR-T.\n* Relapsed or refractory disease after allogeneic transplant provided patient is at least 100 days from stem cell transplant at the time of enrollment and off of immunosuppressive medications for at least 4 weeks prior to enrollment\n* Patients must have received 2 or more lines of adequate prior therapy including at a minimum:\n* anti-CD20 monoclonal antibody unless investigator determines that tumor is CD20- negative and\n* an anthracycline containing chemotherapy regimen\n* for patients with transformed FL must have received prior chemotherapy for follicular lymphoma and subsequently have chemorefractory disease after transformation to DLBCL vi. Prior CAR T therapy permissible if ≥ 3 months from the therapy vii. At least 1 measurable lesion according to the revised IWG Response Criteria for Malignant Lymphoma (Cheson 2007). Lesions that have been previously irradiated will be considered measurable only if progression has been documented following completion of radiation therapy C. Relapsed or refractory indolent non-Hodgkin lymphoma i. Histologically confirmed indolent non-Hodgkin lymphoma, including grade 1-3b follicular lymphoma or nodal or extranodal marginal zone lymphoma (both per WHO 2016 classification criteria) ii. Relapsed or refractory disease (per Lugano criteria) after two or more previous lines of therapy, iii. Previous lines of therapy to include an anti-CD20 monoclonal antibody combined with an alkylating agent iv. Prior CAR T therapy permissible if ≥ 3 months from the therapy v. At least 1 measurable lesion according to the revised IWG Response Criteria for Malignant Lymphoma (Cheson 2007). Lesions that have been previously irradiated will be considered measurable only if progression has been documented following completion of radiation therapy vi. Relapsed or refractory disease after allogeneic transplant provided patient is at least 100 days from stem cell transplant at the time of enrollment and off of immunosuppressive medications for at least 4 weeks prior to enrollment D. Relapsed or Refractory Mantle-Cell Lymphoma i. Histologically confirmed mantle-cell lymphoma with either cyclin D1 overexpression or presence of the translocation (T11:14) ii. Disease that is either relapsed or refractory to at least 2 prior lines of previous regimens for mantle-cell lymphoma iii. Previous therapy must have included anthracycline- or bendamustine-containing chemotherapy, an anti-CD20 monoclonal antibody, and BTK inhibitor therapy",
+   "correct": true
+  },
+  {
+   "id": "NCT05238792",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I3",
+   "quote": "Following conventional therapy: refractory disease, residual detectable disease, or relapsed disease.",
+   "correct": true
+  },
+  {
+   "id": "NCT05010005",
+   "key": "previously_treated",
+   "value": "required",
+   "ref": "I4",
+   "quote": "ii) Systemic anaplastic large cell lymphoma that has relapsed after therapy containing brentuximab vedotin.",
+   "correct": true
+  },
+  {
+   "id": "NCT06651593",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "I13",
+   "quote": "Women of childbearing potential (WOCBP) must have a negative serum pregnancy test result at screening.",
+   "correct": true
+  },
+  {
+   "id": "NCT00004847",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "E2",
+   "quote": "Pregnant or breastfeeding women",
+   "correct": true
+  },
+  {
+   "id": "NCT05526924",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "I12",
+   "quote": "Negative serum or urine pregnancy test at screening for patients of childbearing potential.",
+   "correct": true
+  },
+  {
+   "id": "NCT07060014",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "1. Hematology laboratory values of:\n1. Absolute neutrophil count ≤1500 cells/mm3\n2. Platelets ≤100,000 cells/mm3\n3. Hemoglobin ≤9 g/dL\n4. White blood count ≤3000 cells/mm3. 2. Hepatic laboratory values of aspartate transaminase or alanine aminotransferase:\n<!-- -->\n1. >5 × upper limits of normal (ULN) if the documented history of hepatic metastases; or\n2. >2.5 × ULN if no liver metastases are present. 3. Total bilirubin >1.5 × ULN or >1.5 mg/dL. 4. Prothrombin time (PT) or international normalized ratio (INR) >1.5 × ULN. Note: Patients receiving therapeutic doses of anticoagulant therapy may be considered eligible if PT and INR are within the acceptable institutional therapeutic limits.\n5. Serum creatinine or serum urea >1.5 × ULN. 6. Estimated glomerular filtration rate <50 mL/min. 7. Positive pregnancy test, pregnancy, or breastfeeding (female patients only). 8. Any other clinically significant laboratory abnormality that would compromise patient safety or the outcome of the study.\n9. Any clinically significant and/or uncontrolled cardiac-related abnormality that would compromise patient safety or the outcome of the study including, but not limited to:\n<!-- -->\n1. Arrhythmia\n2. Bradycardia\n3. Tachycardia\n4. Symptomatic valvular disease\n5. Symptomatic congestive heart failure is classified by the New York Heart Association as Class III or IV\n6. Unstable angina pectoris. 10. Myocardial infarction within the past 6 months. 11. Active bleeding diathesis. 12. Current complaints of persistent constipation or history of chronic constipation, bowel obstruction, or fecaloma within the past 6 months.\n13. Receiving chronic treatment with corticosteroids ≥5 mg of prednisone per day (or equivalent) or another immunosuppressive agent (s) 14. Known history and/or uncontrolled hepatitis B surface antigen, hepatitis C antibody, or human immunodeficiency virus (HIV)-1 or HIV-2.\n15. History of galactose intolerance, deficiency of Lapp lactase, or glucose-galactose malabsorption.\n16. History of malignancy or active treatment for malignancy (i.e., radiation or chemotherapy, including monoclonal antibodies) within 5 years. Note: Patients with squamous or basal cell carcinomas of the skin, carcinomas in situ of the cervix or uterus, ductal breast cancer in situ, resected low-grade prostate cancer, or other malignancies that in the opinion of the investigator are considered cured may participate.\n17. Receipt of live, attenuated vaccine (e.g., intranasal influenza, measles, mumps, rubella, varicella) or close contact with someone who has received a live, attenuated vaccine within the past 1 month. Note: Influenza vaccine will be allowed if administered >21 days.\n18. Receipt of any investigational agent or study treatment within the past 30 days.\n19. Receipt of any protein or antibody-based therapeutic agents (e.g., growth hormones or monoclonal antibodies) within the past 3 months.\n20. Allergies reaction to irinotecan or liposomal irinotecan.",
+   "correct": false,
+   "why": "lab values, no pregnancy rule"
+  },
+  {
+   "id": "NCT07043270",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "I6",
+   "quote": "Females of childbearing potential must have a negative pregnancy test done ≤ 14 days prior to study enrollment, and must agree to use a highly effective method of contraception throughout the course of protocol therapy.",
+   "correct": true
+  },
+  {
+   "id": "NCT06090669",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "E5",
+   "quote": "Pregnancy (confirmed with beta-HCG serum or urine pregnancy test performed in females of childbearing potential at screening).",
+   "correct": true
+  },
+  {
+   "id": "NCT05879146",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "E5",
+   "quote": "Pregnant or breastfeeding women are excluded from this study. Based on findings in animal studies, oral administration of nirogacestat to pregnant rats during the period of organogenesis resulted in embryo-fetal toxicities at maternal exposures that were significantly lower than adult human exposures at the recommended dose of 150 mg twice daily. Nirogacestat should be avoided during pregnancy",
+   "correct": true
+  },
+  {
+   "id": "NCT06333262",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "E14",
+   "quote": "Pregnancy, lactation or plan to breastfeed during the study or within 6 months of the last dose of study treatment.",
+   "correct": true
+  },
+  {
+   "id": "NCT05365035",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "E4",
+   "quote": "Female patients who are pregnant or lactating.",
+   "correct": true
+  },
+  {
+   "id": "NCT05581030",
+   "key": "pregnancy",
+   "value": "excluded",
+   "ref": "I8",
+   "quote": "Females of childbearing potential (FCBP) must have a negative serum pregnancy test at screening. A FCBP is considered when a sexually mature female: 1) has not undergone a hysterectomy or bilateral oophorectomy; or 2) has not been naturally postmenopausal for at least 12 consecutive months.",
+   "correct": true
+  },
+  {
+   "id": "NCT07227233",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E3",
+   "quote": "Participants who are receiving any other investigational agents within 3 weeks of study enrollment only if there is a known pharmacokinetic interaction with the selected drug. No washout period is otherwise required.",
+   "correct": false,
+   "why": "conditional on PK interaction"
+  },
+  {
+   "id": "NCT05608252",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E5",
+   "quote": "The subject has received another investigational agent within at least 30 days or 5 half-lives of the first dose of study drug, whichever is longer, or is currently enrolled in any medical device research or other research that is judged by the sponsor to not be scientifically or medically compatible with this study.",
+   "correct": true
+  },
+  {
+   "id": "NCT06677190",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E4",
+   "quote": "Anti-cancer treatment (chemotherapy, radiotherapy, or other investigational therapy) within 4 weeks prior to entering the study (6 weeks prior to study entry for nitrosoureas or mitomycin C).",
+   "correct": true
+  },
+  {
+   "id": "NCT03943004",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "Patients will be excluded if they have received previous chemotherapy, immunotherapy, radiotherapy or any other investigational therapy within 4 weeks (6 weeks for nitrosoureas or mitomycin C) or 5 half-lives for targeted therapies prior to this study entry.",
+   "correct": true
+  },
+  {
+   "id": "NCT07306832",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E9",
+   "quote": "Currently receiving anticancer therapy with antineoplastic intent, including radiotherapy, systemic therapy small molecules, monoclonal antibodies, other investigational agents, or high-dose chemotherapy with the exception of intrathecal therapy.",
+   "correct": true
+  },
+  {
+   "id": "NCT06926634",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E6",
+   "quote": "Receipt of any type of cytotoxic, biologic or other systemic anticancer therapy (including investigational) within 4 weeks before C1D1.",
+   "correct": true
+  },
+  {
+   "id": "NCT06218628",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "Patients may not be receiving any other investigational agents",
+   "correct": true
+  },
+  {
+   "id": "NCT05071937",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E22",
+   "quote": "Concurrent participation in another clinical investigational treatment trial",
+   "correct": true
+  },
+  {
+   "id": "NCT07220447",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E4",
+   "quote": "Any patients currently enrolled in other clinical trials that might interfere with the results of this study",
+   "correct": true
+  },
+  {
+   "id": "NCT05620771",
+   "key": "concurrent_trial",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "3.2.1 Patients who are concurrently enrolled in another clinical study unless it is an observational (noninterventional) clinical study or the follow-up period of an interventional study.",
+   "correct": true
+  }
+ ]
+}

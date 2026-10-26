@@ -1,0 +1,46 @@
+# Data refresh, run by hand (Actions > refresh-data > Run workflow): fetch a new ClinicalTrials.gov snapshot, rebuild the national dataset, verify it, and open a
+# pull request that updates data/data-lock.json. The snapshot pages and the built public/data are attached as
+# artifacts (they are too large to commit); deploy from the artifact after review.
+name: refresh-data
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run models:fetch
+      - run: npm run ingest -- --refresh
+      - run: npm run data:verify
+      - run: npm run eval
+      - uses: actions/upload-artifact@v4
+        with:
+          name: national-data
+          path: |
+            public/data
+            data/cache/snapshots
+            data/build/shard-sizes.json
+            eval/REGRESSION.md
+      - name: Open a pull request with the new lock file
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          branch="data-refresh-$(date -u +%Y%m%d)"
+          git config user.name "trialbridge-refresh"
+          git config user.email "refresh@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add data/data-lock.json eval/REGRESSION.md eval/results.json
+          git diff --cached --quiet && { echo "no changes"; exit 0; }
+          git commit -m "Data refresh $(date -u +%Y-%m-%d): new ClinicalTrials.gov snapshot"
+          git push -u origin "$branch"
+          gh pr create --title "Data refresh $(date -u +%Y-%m-%d)" --body "Data refresh run by hand. The snapshot pages and the built public/data are in this run's artifacts. Review eval/REGRESSION.md before deploying." --base main --head "$branch"

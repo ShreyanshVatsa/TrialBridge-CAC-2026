@@ -1,0 +1,15 @@
+# Local secrets for the Worker (`wrangler dev`, `npm run local`). Copy this file to `.dev.vars` (which is gitignored)
+# and fill in only what you use. Never commit `.dev.vars` or share its values.
+#
+# AI providers: a provider is used only if its key is set AND `dataTermsVerified` is true for it in
+# config/ai-providers.ts. With no key at all, the built-in mock provider is used.
+# Groq (free tier): create a key at https://console.groq.com/keys and paste it here.
+GROQ_API_KEY=
+CEREBRAS_API_KEY=
+OPENROUTER_API_KEY=
+# Turnstile secret. Leave empty locally to use Cloudflare's documented always-pass TEST secret.
+TURNSTILE_SECRET_KEY=
+# Salt for the daily-rotating IP hash used by rate limiting. Leave empty locally (a dev-only salt is used).
+RATE_LIMIT_SALT=
+# Local llama.cpp model (npm run llm:local). Any value turns it on.
+LOCAL_LLM_API_KEY=

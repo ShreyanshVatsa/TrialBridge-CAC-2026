@@ -1,0 +1,54 @@
+{
+ "lockVersion": 1,
+ "source": "national",
+ "snapshot": "data/cache/national",
+ "query": {
+  "filter.overallStatus": "RECRUITING",
+  "filter.advanced": "AREA[StudyType]INTERVENTIONAL AND AREA[LocationCountry]United States",
+  "query.cond": "cancer OR neoplasm OR tumor OR carcinoma OR lymphoma OR leukemia OR myeloma OR melanoma OR sarcoma OR glioma OR malignancy OR myelodysplastic"
+ },
+ "fields": "protocolSection.identificationModule.nctId,protocolSection.identificationModule.briefTitle,protocolSection.identificationModule.officialTitle,protocolSection.statusModule.overallStatus,protocolSection.statusModule.lastUpdatePostDateStruct,protocolSection.sponsorCollaboratorsModule.leadSponsor,protocolSection.descriptionModule.briefSummary,protocolSection.conditionsModule,protocolSection.designModule.studyType,protocolSection.designModule.phases,protocolSection.eligibilityModule,protocolSection.contactsLocationsModule.centralContacts,protocolSection.contactsLocationsModule.locations,derivedSection.conditionBrowseModule.meshes,derivedSection.conditionBrowseModule.ancestors",
+ "fetchedAt": "2026-10-07T02:40:03.335Z",
+ "fetchedAtApproximate": true,
+ "pages": [
+  {
+   "file": "page-0001.json",
+   "sha256": "cca9ad39850996c54e3b3ea2e6457d61ac6ba1154df1ead414a5c4694c8b2b45"
+  },
+  {
+   "file": "page-0002.json",
+   "sha256": "44aa05fa4c629ed3bc24200326671b20c23ad59d91addcec377c8223573fc65e"
+  },
+  {
+   "file": "page-0003.json",
+   "sha256": "e63409da3e58a4060ba347b97ef5844e99f8a7a34a2968c070736161ea3c18dd"
+  },
+  {
+   "file": "page-0004.json",
+   "sha256": "a58e453235eda29ada0a313ad6bd772f96b19ccb25a960972e0e46e010047a7d"
+  },
+  {
+   "file": "page-0005.json",
+   "sha256": "721f649d91d3845c13eb7ef8276db58097303bb426b0f50b1b332e6739ac3bd6"
+  },
+  {
+   "file": "page-0006.json",
+   "sha256": "daa3e6a03a1b232fa3f6be91abc4721ba7cd7f5de1c26247858b596cea6942eb"
+  }
+ ],
+ "model": {
+  "id": "Xenova/all-MiniLM-L6-v2",
+  "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+  "files": {
+   "config.json": "7135149f7cffa1a573466c6e4d8423ed73b62fd2332c575bf738a0d033f70df7",
+   "tokenizer.json": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
+   "tokenizer_config.json": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+   "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+   "onnx/model_quantized.onnx": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1"
+  }
+ },
+ "pipelineVersion": "1.1.0",
+ "formatVersion": 1,
+ "dataVersion": "national-20261007-284afe7d2e",
+ "totalTrials": 5726
+}

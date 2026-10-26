@@ -1,0 +1,84 @@
+{
+ "version": 1,
+ "source": "en",
+ "locales": {
+  "en": {
+   "status": "reviewed",
+   "coverage": 1,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "es": {
+   "status": "machine",
+   "coverage": 1,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "pt": {
+   "status": "machine",
+   "coverage": 1,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "ht": {
+   "status": "machine",
+   "coverage": 1,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "zh-Hans": {
+   "status": "partial",
+   "coverage": 0.5157,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "zh-Hant": {
+   "status": "partial",
+   "coverage": 0.5157,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "vi": {
+   "status": "partial",
+   "coverage": 0.5128,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "ko": {
+   "status": "partial",
+   "coverage": 0.5147,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "tl": {
+   "status": "partial",
+   "coverage": 0.5029,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "ar": {
+   "status": "partial",
+   "coverage": 0.5161,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "ru": {
+   "status": "partial",
+   "coverage": 0.5192,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "fr": {
+   "status": "machine",
+   "coverage": 1,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  },
+  "hi": {
+   "status": "machine",
+   "coverage": 1,
+   "sourceHash": "8vezlf",
+   "updated": "2026-10-26"
+  }
+ }
+}

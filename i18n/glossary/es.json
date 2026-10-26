@@ -1,0 +1,19 @@
+{
+ "terms": {
+  "clinical trial": "estudio clínico",
+  "care team": "equipo de atención médica",
+  "possible match to discuss with your care team": "posible coincidencia para hablar con su equipo médico",
+  "eligibility criteria": "criterios de elegibilidad",
+  "inclusion criteria": "criterios de inclusión",
+  "exclusion criteria": "criterios de exclusión",
+  "recruiting": "reclutando",
+  "biomarker": "biomarcador"
+ },
+ "banned": [
+  "usted es elegible",
+  "usted califica",
+  "es elegible para",
+  "usted cumple los requisitos para este estudio"
+ ],
+ "style": "Use formal 'usted'. U.S. Spanish."
+}

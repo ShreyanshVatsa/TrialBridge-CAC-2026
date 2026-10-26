@@ -1,0 +1,18 @@
+{
+ "terms": {
+  "clinical trial": "ক্লিনিকাল ট্রায়াল",
+  "care team": "স্বাস্থ্যসেবা দল",
+  "possible match to discuss with your care team": "সম্ভাব্য মিল যা আপনার স্বাস্থ্যসেবা দলের সঙ্গে আলোচনা করা যায়",
+  "eligibility criteria": "যোগ্যতার মানদণ্ড",
+  "inclusion criteria": "অন্তর্ভুক্তির মানদণ্ড",
+  "exclusion criteria": "বর্জনের মানদণ্ড",
+  "recruiting": "নিয়োগ চলছে",
+  "biomarker": "বায়োমার্কার"
+ },
+ "banned": [
+  "আপনি যোগ্য",
+  "আপনি উপযুক্ত",
+  "আপনি এই ট্রায়ালের জন্য যোগ্য"
+ ],
+ "style": "Bengali (Bangla), respectful 'আপনি'."
+}

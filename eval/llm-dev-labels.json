@@ -1,0 +1,595 @@
+{
+ "note": "Provisional judgments of committed facts produced by the verified-LLM layer on DEVELOPMENT-partition trials only (partitionOf = dev). Provisional, not clinician-reviewed. correct = (key, value, param) is the right reading of the cited criterion for every participant. Used to choose thresholds/guards; never mixed with gold.",
+ "items": [
+  {
+   "id": "NCT02332668",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "ref": "E15",
+   "quote": "Hepatitis B or C",
+   "correct": true
+  },
+  {
+   "id": "NCT03526835",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "ref": "E14",
+   "quote": "Active hepatitis B infection (HBsAg positive) without receiving antiviral treatment.",
+   "correct": false,
+   "why": "active/untreated only: param should be active_only"
+  },
+  {
+   "id": "NCT04083495",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E4",
+   "quote": "positive for hepatitis B surface antigen ... are excluded",
+   "correct": false,
+   "why": "HBsAg positive excluded = any chronic infection"
+  },
+  {
+   "id": "NCT04139304",
+   "key": "prior_drug:anti_cd38",
+   "value": "excluded",
+   "ref": "E5",
+   "quote": "previously received daratumumab for another indication",
+   "correct": false,
+   "why": "single named drug, not the class"
+  },
+  {
+   "id": "NCT04219254",
+   "key": "autoimmune",
+   "value": "excluded",
+   "ref": "E7",
+   "quote": "Has an active, known or suspected autoimmune disease.",
+   "correct": true
+  },
+  {
+   "id": "NCT04715191",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E10",
+   "quote": "Hepatitis C ... completed curative antiviral treatment",
+   "correct": true
+  },
+  {
+   "id": "NCT04797767",
+   "key": "histology:cml",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "chronic myeloid leukemia in myeloid blast crisis",
+   "correct": false,
+   "why": "only blast crisis"
+  },
+  {
+   "id": "NCT04830137",
+   "key": "histology:cns_lymphoma",
+   "value": "required",
+   "ref": "I8",
+   "quote": "list of eligible lymphomas",
+   "correct": false,
+   "why": "one of several"
+  },
+  {
+   "id": "NCT04830137",
+   "key": "histology:cll",
+   "value": "required",
+   "ref": "I8",
+   "quote": "list",
+   "correct": false,
+   "why": "one of several"
+  },
+  {
+   "id": "NCT04830137",
+   "key": "histology:dlbcl",
+   "value": "required",
+   "ref": "I8",
+   "quote": "list",
+   "correct": false,
+   "why": "one of several"
+  },
+  {
+   "id": "NCT04830137",
+   "key": "histology:follicular",
+   "value": "required",
+   "ref": "I8",
+   "quote": "list",
+   "correct": false,
+   "why": "one of several"
+  },
+  {
+   "id": "NCT04830137",
+   "key": "histology:marginal_zone",
+   "value": "required",
+   "ref": "I8",
+   "quote": "list",
+   "correct": false,
+   "why": "one of several"
+  },
+  {
+   "id": "NCT04872478",
+   "key": "histology:aml",
+   "value": "required",
+   "ref": "I3",
+   "quote": "AML ..., ALL, or MPAL",
+   "correct": false,
+   "why": "one of several"
+  },
+  {
+   "id": "NCT04872478",
+   "key": "histology:all",
+   "value": "required",
+   "ref": "I3",
+   "quote": "AML ..., ALL, or MPAL",
+   "correct": false,
+   "why": "one of several"
+  },
+  {
+   "id": "NCT04989803",
+   "key": "autoimmune",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E11",
+   "quote": "requiring systemic immunosuppression ... within the last 90 days",
+   "correct": true
+  },
+  {
+   "id": "NCT04996875",
+   "key": "biomarker:PH",
+   "value": "excluded",
+   "ref": "E12",
+   "quote": "Diagnosis of Philadelphia chromosome-positive malignancy",
+   "correct": true
+  },
+  {
+   "id": "NCT05260957",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E11",
+   "quote": "Chronic hepatitis B should have been controlled",
+   "correct": true
+  },
+  {
+   "id": "NCT05260957",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "ref": "E12",
+   "quote": "chronic hepatitis C ... cleared by a Hepatologist",
+   "correct": false,
+   "why": "permitted with clearance, not an exclusion"
+  },
+  {
+   "id": "NCT05672251",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E22",
+   "quote": "Known active HBV or HCV infection.",
+   "correct": true
+  },
+  {
+   "id": "NCT05765851",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E14",
+   "quote": "Has active or uncontrolled HBV or HCV.",
+   "correct": true
+  },
+  {
+   "id": "NCT05859074",
+   "key": "autoimmune",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E16",
+   "quote": "required systemic treatment in the past 2 years",
+   "correct": true
+  },
+  {
+   "id": "NCT06120283",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E5",
+   "quote": "untreated chronic hepatitis B or carriers with HBV DNA >= 500",
+   "correct": true
+  },
+  {
+   "id": "NCT06458439",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E12",
+   "quote": "HCV antibody positive must be negative by PCR",
+   "correct": true
+  },
+  {
+   "id": "NCT06735664",
+   "key": "histology:dlbcl",
+   "value": "required",
+   "ref": "I5",
+   "quote": "DLBCL histology in transformation",
+   "correct": false,
+   "why": "transformed disease"
+  },
+  {
+   "id": "NCT06797336",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E19",
+   "quote": "Active hepatitis B virus (HBV) infection.",
+   "correct": true
+  },
+  {
+   "id": "NCT06994676",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E8",
+   "quote": "Active hepatitis B infection (clearance allowed)",
+   "correct": true
+  },
+  {
+   "id": "NCT07197554",
+   "key": "histology:ewing",
+   "value": "required",
+   "ref": "I1",
+   "quote": "except for adolescents with Ewing Sarcoma",
+   "correct": false,
+   "why": "exception clause"
+  },
+  {
+   "id": "NCT07222215",
+   "key": "biomarker:TP53",
+   "value": "required",
+   "ref": "I3",
+   "quote": "* TP53 mutations that are considered pathogenic",
+   "correct": false,
+   "why": "definition list item"
+  },
+  {
+   "id": "NCT07283939",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "I1",
+   "quote": "HCV eligible if RNA undetectable",
+   "correct": true
+  },
+  {
+   "id": "NCT07432295",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "param": "active_only",
+   "ref": "E11",
+   "quote": "Active or uncontrolled ... hepatitis B (controlled infection allowed)",
+   "correct": true
+  },
+  {
+   "id": "NCT07509151",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "ref": "E8",
+   "quote": "chronic or active infection with HBV or HCV",
+   "correct": true
+  },
+  {
+   "id": "NCT07509151",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "ref": "E8",
+   "quote": "chronic or active infection with HBV or HCV",
+   "correct": true
+  },
+  {
+   "id": "NCT04946370",
+   "key": "other_malignancy",
+   "value": "excluded",
+   "ref": "E5",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": 2
+  },
+  {
+   "id": "NCT05361798",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "ref": "E11",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT05815173",
+   "key": "autoimmune",
+   "value": "excluded",
+   "ref": "E4",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT06503614",
+   "key": "prior_drug:checkpoint",
+   "value": "excluded",
+   "ref": "E1",
+   "quote": "(see trial)",
+   "correct": true
+  },
+  {
+   "id": "NCT06533644",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "ref": "E21",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT06561347",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "ref": "E5",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT06827860",
+   "key": "min_prior_lines",
+   "value": "required",
+   "ref": "I12",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": 2
+  },
+  {
+   "id": "NCT06844383",
+   "key": "prior_drug:platinum",
+   "value": "excluded",
+   "ref": "E9",
+   "quote": "(see trial)",
+   "correct": true
+  },
+  {
+   "id": "NCT06946225",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "ref": "E9",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT06988488",
+   "key": "prior_drug:bispecific",
+   "value": "excluded",
+   "ref": "E2",
+   "quote": "(see trial)",
+   "correct": true
+  },
+  {
+   "id": "NCT07105059",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "ref": "E23",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT07183319",
+   "key": "autoimmune",
+   "value": "excluded",
+   "ref": "E16",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT07281924",
+   "key": "max_prior_lines",
+   "value": "required",
+   "ref": "I2",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": 1
+  },
+  {
+   "id": "NCT07401381",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "ref": "E6",
+   "quote": "(see trial)",
+   "correct": true
+  },
+  {
+   "id": "NCT07419295",
+   "key": "adjuvant_setting",
+   "value": "excluded",
+   "ref": "I2",
+   "quote": "(see trial)",
+   "correct": false,
+   "why": "about unresectable locally advanced disease, not the adjuvant setting"
+  },
+  {
+   "id": "NCT07566052",
+   "key": "biomarker:MET",
+   "value": "excluded",
+   "ref": "E10",
+   "quote": "(see trial)",
+   "correct": true
+  },
+  {
+   "id": "NCT07566052",
+   "key": "histology:nsclc",
+   "value": "required",
+   "ref": "I1",
+   "quote": "(see trial)",
+   "correct": true
+  },
+  {
+   "id": "NCT07590934",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "ref": "E12",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT07590934",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "ref": "E12",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT07594522",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "ref": "I42",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT07671209",
+   "key": "histology:aml",
+   "value": "required",
+   "ref": "I2",
+   "quote": "(see trial)",
+   "correct": false,
+   "why": "one of two eligible diseases (AML or MDS)"
+  },
+  {
+   "id": "NCT07671209",
+   "key": "histology:mds",
+   "value": "required",
+   "ref": "I4",
+   "quote": "(see trial)",
+   "correct": false,
+   "why": "one of two eligible diseases"
+  },
+  {
+   "id": "NCT07720284",
+   "key": "adjuvant_setting",
+   "value": "excluded",
+   "ref": "E3",
+   "quote": "(see trial)",
+   "correct": false,
+   "why": "prior adjuvant therapy, not the setting"
+  },
+  {
+   "id": "NCT03970447",
+   "key": "max_prior_lines",
+   "value": "required",
+   "ref": "I20",
+   "quote": "(see trial)",
+   "correct": false,
+   "param": 2,
+   "why": "inclusion 'more than 2 prior lines' is a minimum, and chemotherapy-specific"
+  },
+  {
+   "id": "NCT04577014",
+   "key": "autoimmune",
+   "value": "excluded",
+   "ref": "E9",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT04903795",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "ref": "E10",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT05104736",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "ref": "E9",
+   "quote": "(see trial)",
+   "correct": true
+  },
+  {
+   "id": "NCT05254171",
+   "key": "histology:pnet",
+   "value": "excluded",
+   "ref": "E6",
+   "quote": "(see trial)",
+   "correct": true
+  },
+  {
+   "id": "NCT05400603",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "ref": "E8",
+   "quote": "(see trial)",
+   "correct": true
+  },
+  {
+   "id": "NCT06203600",
+   "key": "hepatitis_c",
+   "value": "excluded",
+   "ref": "I36",
+   "quote": "(see trial)",
+   "correct": true,
+   "param": "active_only"
+  },
+  {
+   "id": "NCT07079631",
+   "key": "prior_drug:bispecific",
+   "value": "excluded",
+   "ref": "E3",
+   "quote": "(see trial)",
+   "correct": false,
+   "why": "PD-(L)1/VEGF bispecific, not a T-cell engager"
+  },
+  {
+   "id": "NCT07278336",
+   "key": "prior_drug:adc",
+   "value": "excluded",
+   "ref": "E3",
+   "quote": "(see trial)",
+   "correct": false,
+   "why": "only topoisomerase-payload ADCs"
+  },
+  {
+   "id": "NCT07416552",
+   "key": "hepatitis_b",
+   "value": "excluded",
+   "ref": "E7",
+   "quote": "(see trial)",
+   "correct": true
+  },
+  {
+   "id": "NCT07681596",
+   "key": "prior_drug:bcma",
+   "value": "excluded",
+   "ref": "E21",
+   "quote": "(see trial)",
+   "correct": false,
+   "why": "refractoriness, not exposure"
+  },
+  {
+   "id": "NCT04903795",
+   "key": "locally_advanced",
+   "value": "required",
+   "ref": "I2",
+   "quote": "(see trial)",
+   "correct": false,
+   "why": "GBM size before resection; not locally advanced"
+  }
+ ]
+}

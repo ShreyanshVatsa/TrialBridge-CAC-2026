@@ -1,0 +1,29 @@
+{
+  "note": "TREC 2022 test split: run once at the end of development, after all dev decisions.",
+  "runs": [
+    {
+      "at": "2026-10-14T00:34:00.340Z",
+      "sha": "3207e61afe276ac2e00b6fa6f0ab077ce23762c1",
+      "llm": true,
+      "llmStatus": {
+        "ok": 0,
+        "degraded": 0,
+        "quota": 2,
+        "not_run": 0
+      },
+      "note": "LLM arm blocked by the Groq daily token cap (dev used it). Baseline and resolver arms scored. Completing the LLM arm with the frozen dev config needs --allow-test-rerun (would be run 2)."
+    },
+    {
+      "at": "2026-10-14T10:39:49.895Z",
+      "sha": "4229463eb7cdd121adc6a145c27d1800ef7ae665",
+      "llm": true,
+      "llmStatus": {
+        "ok": 0,
+        "degraded": 2,
+        "quota": 0,
+        "not_run": 0
+      },
+      "note": "Run 2, allowed because run 1's LLM arm was blocked by the Groq free-tier daily token cap (200000 TPD), not by any result. Same frozen dev settings; code changed since run 1 only by resolver, pre-check and ingest fixes made without looking at the test split. Result: both topics degraded (judge output failed validation in 4 of 5 completions, e.g. the JSON object wrapped in a top-level array), so the LLM arm scores the resolver-only fallback. Not rerun again."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "terms": {
+  "clinical trial": "essai clinique",
+  "care team": "équipe soignante",
+  "possible match to discuss with your care team": "correspondance possible à discuter avec votre équipe soignante",
+  "eligibility criteria": "critères d'éligibilité",
+  "inclusion criteria": "critères d'inclusion",
+  "exclusion criteria": "critères d'exclusion",
+  "recruiting": "en cours de recrutement",
+  "biomarker": "biomarqueur"
+ },
+ "banned": [
+  "vous êtes éligible",
+  "vous remplissez les conditions",
+  "vous pouvez participer"
+ ],
+ "style": "French, formal 'vous'."
+}

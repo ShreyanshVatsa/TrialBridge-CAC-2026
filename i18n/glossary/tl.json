@@ -1,0 +1,18 @@
+{
+ "terms": {
+  "clinical trial": "klinikal na pagsubok",
+  "care team": "pangkat ng iyong pangangalaga",
+  "possible match to discuss with your care team": "posibleng tugma na pag-usapan sa pangkat ng iyong pangangalaga",
+  "eligibility criteria": "pamantayan sa pagiging kwalipikado",
+  "inclusion criteria": "pamantayan sa pagsasama",
+  "exclusion criteria": "pamantayan sa pagbubukod",
+  "recruiting": "nagre-recruit",
+  "biomarker": "biomarker"
+ },
+ "banned": [
+  "kwalipikado ka",
+  "ikaw ay kwalipikado",
+  "ikaw ay karapat-dapat"
+ ],
+ "style": "Tagalog (Filipino), use 'ka/mo'."
+}

@@ -1,0 +1,18 @@
+{
+ "terms": {
+  "clinical trial": "臨床試驗",
+  "care team": "醫療團隊",
+  "possible match to discuss with your care team": "可與您的醫療團隊討論的可能配對",
+  "eligibility criteria": "資格條件",
+  "inclusion criteria": "納入條件",
+  "exclusion criteria": "排除條件",
+  "recruiting": "招募中",
+  "biomarker": "生物標記"
+ },
+ "banned": [
+  "您符合資格",
+  "您有資格",
+  "您合格"
+ ],
+ "style": "Traditional Chinese (Taiwan usage), polite 您."
+}

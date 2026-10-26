@@ -1,0 +1,18 @@
+{
+ "terms": {
+  "clinical trial": "клиническое исследование",
+  "care team": "лечащая команда",
+  "possible match to discuss with your care team": "возможное совпадение, которое стоит обсудить с вашей лечащей командой",
+  "eligibility criteria": "критерии отбора",
+  "inclusion criteria": "критерии включения",
+  "exclusion criteria": "критерии исключения",
+  "recruiting": "идёт набор",
+  "biomarker": "биомаркер"
+ },
+ "banned": [
+  "вы подходите",
+  "вы имеете право участвовать",
+  "вы соответствуете критериям"
+ ],
+ "style": "Russian, formal 'вы'."
+}

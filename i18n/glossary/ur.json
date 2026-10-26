@@ -1,0 +1,17 @@
+{
+ "terms": {
+  "clinical trial": "کلینیکل ٹرائل",
+  "care team": "نگہداشت کی ٹیم",
+  "possible match to discuss with your care team": "ممکنہ مطابقت جس پر آپ اپنی نگہداشت کی ٹیم سے بات کر سکتے ہیں",
+  "eligibility criteria": "اہلیت کے معیار",
+  "inclusion criteria": "شمولیت کے معیار",
+  "exclusion criteria": "اخراج کے معیار",
+  "recruiting": "بھرتی جاری ہے",
+  "biomarker": "بائیو مارکر"
+ },
+ "banned": [
+  "آپ اہل ہیں",
+  "آپ اہلیت رکھتے ہیں"
+ ],
+ "style": "Urdu, respectful 'آپ'."
+}

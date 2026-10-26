@@ -1,0 +1,2711 @@
+{
+ "schema": 2,
+ "note": "SYNTHETIC, PROVISIONAL. Schema v2: 40 synthetic patient profiles (not real people), each with legacy `answers` (v1 pipeline) and a written v2 questionnaire `state`. Relevance labels from per-profile title/condition rules (scripts/eval/make-labels.ts) over the committed ClinicalTrials.gov seed; not clinician-reviewed.",
+ "generatedAt": "2026-10-07",
+ "profiles": [
+  {
+   "id": "p01",
+   "note": "HER2+ metastatic breast, prior chemo, Boston",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "yes",
+    "treatments": [
+     "chemotherapy"
+    ],
+    "biomarkers": {
+     "HER2": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "breast",
+    "zip": "02115",
+    "age": 52
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "breast",
+     "age": 52,
+     "zip": "02115",
+     "travel": 250,
+     "spread": "distant",
+     "treatments": [
+      "chemotherapy"
+     ],
+     "biomarkers": {
+      "HER2": "positive"
+     },
+     "daily_activity": "0-1",
+     "disease_status": "recurrent"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "daily_activity",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04852887",
+    "NCT05837767",
+    "NCT05910294",
+    "NCT06458712",
+    "NCT06582017",
+    "NCT06673329",
+    "NCT06686394"
+   ],
+   "excluded": [
+    "NCT04895709",
+    "NCT04997993",
+    "NCT06695845",
+    "NCT06757634",
+    "NCT06841354",
+    "NCT06966700",
+    "NCT07287098"
+   ],
+   "candidates": 16
+  },
+  {
+   "id": "p02",
+   "note": "Triple-negative breast, Houston",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "yes",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {
+     "HER2": "negative",
+     "HR": "negative"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "breast",
+    "zip": "77030",
+    "age": 44
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "breast",
+     "age": 44,
+     "zip": "77030",
+     "travel": 250,
+     "spread": "distant",
+     "treatments": [
+      "unknown"
+     ],
+     "biomarkers": {
+      "HER2": "negative",
+      "HR": "negative"
+     },
+     "daily_activity": "unknown",
+     "disease_status": "on_treatment"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "daily_activity",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT03941756",
+    "NCT04895709",
+    "NCT06458712",
+    "NCT06582017",
+    "NCT06695845",
+    "NCT06841354",
+    "NCT06910657",
+    "NCT06966700",
+    "NCT06999187",
+    "NCT07287098"
+   ],
+   "excluded": [
+    "NCT06757634",
+    "NCT07705334"
+   ],
+   "candidates": 12
+  },
+  {
+   "id": "p03",
+   "note": "HR+/HER2- breast, Chicago, 500 mi",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "not_sure",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {
+     "HR": "positive",
+     "HER2": "negative"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "breast",
+    "zip": "60611",
+    "age": 63
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "breast",
+     "age": 63,
+     "zip": "60611",
+     "travel": 500,
+     "spread": "unknown",
+     "treatments": [
+      "unknown"
+     ],
+     "biomarkers": {
+      "HR": "positive",
+      "HER2": "negative"
+     },
+     "daily_activity": "0-1",
+     "sex": "female"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "daily_activity",
+     "sex"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04362826",
+    "NCT04852887",
+    "NCT05787834",
+    "NCT06062498",
+    "NCT06350500",
+    "NCT06582017",
+    "NCT06695845",
+    "NCT06757634",
+    "NCT06910657",
+    "NCT07158021",
+    "NCT07287098"
+   ],
+   "excluded": [
+    "NCT03671044",
+    "NCT04895709",
+    "NCT05086692",
+    "NCT05677802",
+    "NCT06414733",
+    "NCT06841354",
+    "NCT06966700"
+   ],
+   "candidates": 20
+  },
+  {
+   "id": "p04",
+   "note": "Early breast, newly diagnosed, NYC",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "no",
+    "treatments": [
+     "none"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "breast",
+    "zip": "10032",
+    "age": 38
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "breast",
+     "age": 38,
+     "zip": "10032",
+     "travel": 250,
+     "spread": "not_spread",
+     "treatments": [
+      "none"
+     ],
+     "disease_status": "new",
+     "daily_activity": "0-1",
+     "sex": "female"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status",
+     "daily_activity",
+     "sex"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT05910294",
+    "NCT06582017",
+    "NCT06673329",
+    "NCT06686394",
+    "NCT06695845",
+    "NCT06841354",
+    "NCT06966700",
+    "NCT07287098",
+    "NCT07482384"
+   ],
+   "excluded": [
+    "NCT04895709",
+    "NCT04997993",
+    "NCT05837767",
+    "NCT06458712",
+    "NCT06757634",
+    "NCT06999187"
+   ],
+   "candidates": 17
+  },
+  {
+   "id": "p05",
+   "note": "EGFR+ NSCLC, prior targeted, LA area",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "targeted_therapy"
+    ],
+    "biomarkers": {
+     "EGFR": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "lung",
+    "zip": "94143",
+    "age": 67
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "lung",
+     "age": 67,
+     "zip": "94143",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "targeted_therapy"
+     ],
+     "biomarkers": {
+      "EGFR": "positive"
+     },
+     "daily_activity": "2",
+     "disease_status": "recurrent",
+     "brain_mets": "unknown"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "daily_activity",
+     "disease_status",
+     "brain_mets"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04895709",
+    "NCT04913285",
+    "NCT05176483",
+    "NCT05227326",
+    "NCT06216301",
+    "NCT07090499",
+    "NCT07098338",
+    "NCT07154706",
+    "NCT07250477",
+    "NCT07293247",
+    "NCT07659782"
+   ],
+   "excluded": [
+    "NCT05086692",
+    "NCT07625644"
+   ],
+   "candidates": 16
+  },
+  {
+   "id": "p06",
+   "note": "Small cell lung, Ohio",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "not_sure",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "lung",
+    "zip": "44195",
+    "age": 70
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "lung",
+     "age": 70,
+     "zip": "44195",
+     "travel": 500,
+     "spread": "unknown",
+     "treatments": [
+      "unknown"
+     ],
+     "daily_activity": "2",
+     "disease_status": "new"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "daily_activity",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT07625644"
+   ],
+   "excluded": [
+    "NCT01639508",
+    "NCT04895709",
+    "NCT04913285",
+    "NCT05086692",
+    "NCT05144698",
+    "NCT05176483",
+    "NCT05267626",
+    "NCT05837767",
+    "NCT06216301",
+    "NCT06695845",
+    "NCT07090499",
+    "NCT07098338",
+    "NCT07126509",
+    "NCT07154706",
+    "NCT07293247",
+    "NCT07428044",
+    "NCT07519655",
+    "NCT07659782"
+   ],
+   "candidates": 29
+  },
+  {
+   "id": "p07",
+   "note": "Advanced NSCLC after immunotherapy, Philadelphia",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "yes",
+    "treatments": [
+     "immunotherapy",
+     "chemotherapy"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "lung",
+    "zip": "19104",
+    "age": 61
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "lung",
+     "age": 61,
+     "zip": "19104",
+     "travel": 250,
+     "spread": "distant",
+     "treatments": [
+      "immunotherapy",
+      "chemotherapy"
+     ],
+     "disease_status": "recurrent",
+     "daily_activity": "0-1"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT01639508",
+    "NCT04665739",
+    "NCT04895709",
+    "NCT04913285",
+    "NCT05144698",
+    "NCT05176483",
+    "NCT05837767",
+    "NCT06216301",
+    "NCT06284408",
+    "NCT06582017",
+    "NCT06673329",
+    "NCT06695845",
+    "NCT06999187",
+    "NCT07090499",
+    "NCT07098338",
+    "NCT07154706",
+    "NCT07293247",
+    "NCT07428044",
+    "NCT07519655",
+    "NCT07659782"
+   ],
+   "excluded": [
+    "NCT07625644"
+   ],
+   "candidates": 23
+  },
+  {
+   "id": "p08",
+   "note": "Lung cancer, not sure of details, Atlanta",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "not_sure",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "lung",
+    "zip": "30322",
+    "age": 58
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "lung",
+     "age": 58,
+     "zip": "30322",
+     "travel": 500,
+     "spread": "unknown",
+     "treatments": [
+      "unknown"
+     ]
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04665739",
+    "NCT04895709",
+    "NCT04913285",
+    "NCT05086692",
+    "NCT05176483",
+    "NCT05267626",
+    "NCT06047301",
+    "NCT06216301",
+    "NCT06582017",
+    "NCT06695845",
+    "NCT06910657",
+    "NCT06999187",
+    "NCT07090499",
+    "NCT07098338",
+    "NCT07154706",
+    "NCT07293247",
+    "NCT07519655",
+    "NCT07659782"
+   ],
+   "excluded": [],
+   "candidates": 20
+  },
+  {
+   "id": "p09",
+   "note": "Metastatic colorectal, KRAS+, Minnesota",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "chemotherapy"
+    ],
+    "biomarkers": {
+     "KRAS": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "colorectal",
+    "zip": "55905",
+    "age": 59
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "colorectal",
+     "age": 59,
+     "zip": "55905",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "chemotherapy"
+     ],
+     "biomarkers": {
+      "KRAS": "positive"
+     },
+     "disease_status": "on_treatment",
+     "daily_activity": "0-1"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "disease_status",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04929223",
+    "NCT05086692",
+    "NCT05176483",
+    "NCT05379595",
+    "NCT05673148",
+    "NCT05854498",
+    "NCT05855200",
+    "NCT06607458",
+    "NCT06792695",
+    "NCT06910657",
+    "NCT07549412"
+   ],
+   "excluded": [
+    "NCT04184973",
+    "NCT06050707",
+    "NCT07217171"
+   ],
+   "candidates": 15
+  },
+  {
+   "id": "p10",
+   "note": "Rectal cancer, newly diagnosed, Durham",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "no",
+    "treatments": [
+     "none"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "colorectal",
+    "zip": "27710",
+    "age": 47
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "colorectal",
+     "age": 47,
+     "zip": "27710",
+     "travel": 250,
+     "spread": "not_spread",
+     "treatments": [
+      "none"
+     ],
+     "disease_status": "new"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT06751329",
+    "NCT07429110"
+   ],
+   "excluded": [
+    "NCT05176483",
+    "NCT05673148",
+    "NCT06330064",
+    "NCT06792695",
+    "NCT07217171",
+    "NCT07549412"
+   ],
+   "candidates": 11
+  },
+  {
+   "id": "p11",
+   "note": "Colorectal, MSI-high, Seattle",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "not_sure",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {
+     "MSI-H": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "colorectal",
+    "zip": "98109",
+    "age": 55
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "colorectal",
+     "age": 55,
+     "zip": "98109",
+     "travel": 500,
+     "spread": "unknown",
+     "treatments": [
+      "unknown"
+     ],
+     "biomarkers": {
+      "MSI-H": "positive"
+     },
+     "daily_activity": "unknown"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04929223",
+    "NCT05176483",
+    "NCT05673148",
+    "NCT06792695",
+    "NCT07775287"
+   ],
+   "excluded": [],
+   "candidates": 6
+  },
+  {
+   "id": "p12",
+   "note": "Metastatic castration-resistant prostate, Dallas/Houston",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "yes",
+    "treatments": [
+     "surgery",
+     "radiation"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "prostate",
+    "zip": "77030",
+    "age": 72
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "prostate",
+     "age": 72,
+     "zip": "77030",
+     "travel": 250,
+     "spread": "distant",
+     "treatments": [
+      "surgery",
+      "radiation"
+     ],
+     "group_status": "crpc",
+     "daily_activity": "0-1",
+     "sex": "male"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "group_status",
+     "daily_activity",
+     "sex"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT05125016",
+    "NCT05413421",
+    "NCT05946213",
+    "NCT06095089",
+    "NCT06582017",
+    "NCT06751329",
+    "NCT06910657",
+    "NCT07052214"
+   ],
+   "excluded": [
+    "NCT04812366"
+   ],
+   "candidates": 9
+  },
+  {
+   "id": "p13",
+   "note": "Localized prostate, St. Louis",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "no",
+    "treatments": [
+     "none"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "prostate",
+    "zip": "63110",
+    "age": 66
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "prostate",
+     "age": 66,
+     "zip": "63110",
+     "travel": 500,
+     "spread": "not_spread",
+     "treatments": [
+      "none"
+     ],
+     "group_status": "cspc",
+     "sex": "male",
+     "disease_status": "new"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "group_status",
+     "sex",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT03322891",
+    "NCT04420702",
+    "NCT04812366",
+    "NCT05038332",
+    "NCT05806515",
+    "NCT05946213",
+    "NCT06095089",
+    "NCT06582017",
+    "NCT06751329",
+    "NCT06910657",
+    "NCT07052214",
+    "NCT07543055"
+   ],
+   "excluded": [
+    "NCT05125016",
+    "NCT05413421",
+    "NCT06044025",
+    "NCT06084338",
+    "NCT06801236"
+   ],
+   "candidates": 17
+  },
+  {
+   "id": "p14",
+   "note": "Prostate, BRCA+, Baltimore",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "not_sure",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {
+     "BRCA": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "prostate",
+    "zip": "21287",
+    "age": 69
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "prostate",
+     "age": 69,
+     "zip": "21287",
+     "travel": 250,
+     "spread": "unknown",
+     "treatments": [
+      "unknown"
+     ],
+     "biomarkers": {
+      "BRCA": "positive"
+     },
+     "sex": "male"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "sex"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT03861676",
+    "NCT05125016",
+    "NCT05413421",
+    "NCT05806515",
+    "NCT05946213",
+    "NCT06095089",
+    "NCT06582017",
+    "NCT06673329",
+    "NCT06801236",
+    "NCT07052214",
+    "NCT07219303",
+    "NCT07535541",
+    "NCT07543055"
+   ],
+   "excluded": [],
+   "candidates": 13
+  },
+  {
+   "id": "p15",
+   "note": "AML, FLT3+, Houston",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "not_sure",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {
+     "FLT3": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "leukemia",
+    "zip": "77030",
+    "age": 64
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "leukemia",
+     "age": 64,
+     "zip": "77030",
+     "travel": 250,
+     "spread": "unknown",
+     "treatments": [
+      "unknown"
+     ],
+     "biomarkers": {
+      "FLT3": "positive"
+     },
+     "daily_activity": "0-1",
+     "disease_status": "new"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "daily_activity",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT03629171",
+    "NCT03896269",
+    "NCT05010122",
+    "NCT05986240",
+    "NCT06285890",
+    "NCT06786533",
+    "NCT07211958"
+   ],
+   "excluded": [
+    "NCT05536349",
+    "NCT07053059"
+   ],
+   "candidates": 11
+  },
+  {
+   "id": "p16",
+   "note": "CLL, Columbus/Ohio, 500 mi",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "not_sure",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "leukemia",
+    "zip": "44195",
+    "age": 71
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "leukemia",
+     "age": 71,
+     "zip": "44195",
+     "travel": 500,
+     "spread": "unknown",
+     "treatments": [
+      "unknown"
+     ],
+     "daily_activity": "0-1"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04704323",
+    "NCT05091424",
+    "NCT05544968",
+    "NCT05643235",
+    "NCT06656494",
+    "NCT06722638",
+    "NCT06960993",
+    "NCT07024706",
+    "NCT07061951",
+    "NCT07388563",
+    "NCT07516093"
+   ],
+   "excluded": [
+    "NCT04872478",
+    "NCT05945849",
+    "NCT05986240",
+    "NCT06440135",
+    "NCT07211958",
+    "NCT07437950"
+   ],
+   "candidates": 19
+  },
+  {
+   "id": "p17",
+   "note": "Relapsed ALL adult, LA",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "not_sure",
+    "treatments": [
+     "chemotherapy"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "leukemia",
+    "zip": "90095",
+    "age": 34
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "leukemia",
+     "age": 34,
+     "zip": "90095",
+     "travel": 250,
+     "spread": "unknown",
+     "treatments": [
+      "chemotherapy"
+     ],
+     "disease_status": "recurrent",
+     "daily_activity": "0-1"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT05554406",
+    "NCT06656494",
+    "NCT07211958"
+   ],
+   "excluded": [
+    "NCT07061951"
+   ],
+   "candidates": 5
+  },
+  {
+   "id": "p18",
+   "note": "Relapsed DLBCL, NYC",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "not_sure",
+    "treatments": [
+     "chemotherapy",
+     "immunotherapy"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "lymphoma",
+    "zip": "10032",
+    "age": 60
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "lymphoma",
+     "age": 60,
+     "zip": "10032",
+     "travel": 250,
+     "spread": "unknown",
+     "treatments": [
+      "chemotherapy",
+      "immunotherapy"
+     ],
+     "disease_status": "recurrent",
+     "daily_activity": "unknown"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT03328078",
+    "NCT04139304",
+    "NCT04561206",
+    "NCT04920617",
+    "NCT05272384",
+    "NCT05643235",
+    "NCT06960993",
+    "NCT07388563",
+    "NCT07424833",
+    "NCT07516093"
+   ],
+   "excluded": [],
+   "candidates": 14
+  },
+  {
+   "id": "p19",
+   "note": "Hodgkin lymphoma young adult, Denver",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "not_sure",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "lymphoma",
+    "zip": "80045",
+    "age": 26
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "lymphoma",
+     "age": 26,
+     "zip": "80045",
+     "travel": 500,
+     "spread": "unknown",
+     "treatments": [
+      "unknown"
+     ],
+     "disease_status": "new"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT03328078",
+    "NCT04898790",
+    "NCT04920617",
+    "NCT05135351",
+    "NCT07528352"
+   ],
+   "excluded": [],
+   "candidates": 8
+  },
+  {
+   "id": "p20",
+   "note": "Relapsed multiple myeloma, Rochester MN",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "not_sure",
+    "treatments": [
+     "chemotherapy",
+     "targeted_therapy"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "myeloma",
+    "zip": "55905",
+    "age": 68
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "myeloma",
+     "age": 68,
+     "zip": "55905",
+     "travel": 250,
+     "spread": "unknown",
+     "treatments": [
+      "chemotherapy",
+      "targeted_therapy"
+     ],
+     "disease_status": "recurrent",
+     "daily_activity": "0-1"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT05650632",
+    "NCT05976555",
+    "NCT06121843",
+    "NCT06297226",
+    "NCT06630806",
+    "NCT06785415",
+    "NCT07096778",
+    "NCT07236502",
+    "NCT07391657"
+   ],
+   "excluded": [
+    "NCT07095452"
+   ],
+   "candidates": 12
+  },
+  {
+   "id": "p21",
+   "note": "Newly diagnosed myeloma, Nashville",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "not_sure",
+    "treatments": [
+     "none"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "myeloma",
+    "zip": "37232",
+    "age": 62
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "myeloma",
+     "age": 62,
+     "zip": "37232",
+     "travel": 500,
+     "spread": "unknown",
+     "treatments": [
+      "none"
+     ],
+     "disease_status": "new",
+     "daily_activity": "0-1"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04483206",
+    "NCT04776395",
+    "NCT05714839",
+    "NCT06057402",
+    "NCT06270888",
+    "NCT06960993",
+    "NCT07095452",
+    "NCT07226934",
+    "NCT07236502",
+    "NCT07477587"
+   ],
+   "excluded": [
+    "NCT05650632",
+    "NCT05780034",
+    "NCT05976555",
+    "NCT06121843",
+    "NCT06297226",
+    "NCT06630806",
+    "NCT07075185",
+    "NCT07096778",
+    "NCT07227311",
+    "NCT07391657",
+    "NCT07424833"
+   ],
+   "candidates": 22
+  },
+  {
+   "id": "p22",
+   "note": "BRAF+ metastatic melanoma, Phoenix",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {
+     "BRAF": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "melanoma",
+    "zip": "85054",
+    "age": 57
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "melanoma",
+     "age": 57,
+     "zip": "85054",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "unknown"
+     ],
+     "biomarkers": {
+      "BRAF": "positive"
+     },
+     "daily_activity": "0-1",
+     "brain_mets": "none"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "daily_activity",
+     "brain_mets"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04895709",
+    "NCT04913285",
+    "NCT05086692",
+    "NCT05136196",
+    "NCT05267626",
+    "NCT05549297",
+    "NCT05655312",
+    "NCT05727904",
+    "NCT06121180",
+    "NCT06246916",
+    "NCT06581406",
+    "NCT07584226"
+   ],
+   "excluded": [],
+   "candidates": 14
+  },
+  {
+   "id": "p23",
+   "note": "Melanoma after immunotherapy, Ann Arbor",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "not_sure",
+    "treatments": [
+     "immunotherapy"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "melanoma",
+    "zip": "48109",
+    "age": 49
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "melanoma",
+     "age": 49,
+     "zip": "48109",
+     "travel": 500,
+     "spread": "unknown",
+     "treatments": [
+      "immunotherapy"
+     ],
+     "disease_status": "recurrent"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04114136",
+    "NCT04370587",
+    "NCT04895709",
+    "NCT04913285",
+    "NCT05086692",
+    "NCT05136196",
+    "NCT05267626",
+    "NCT05549297",
+    "NCT05655312",
+    "NCT05727904",
+    "NCT05837767",
+    "NCT06121180",
+    "NCT06246916",
+    "NCT06581406",
+    "NCT06910657",
+    "NCT06940739",
+    "NCT07519655",
+    "NCT07584226",
+    "NCT07830225"
+   ],
+   "excluded": [],
+   "candidates": 22
+  },
+  {
+   "id": "p24",
+   "note": "Metastatic pancreatic, Miami",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "chemotherapy"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "pancreatic",
+    "zip": "33136",
+    "age": 66
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "pancreatic",
+     "age": 66,
+     "zip": "33136",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "chemotherapy"
+     ],
+     "daily_activity": "2",
+     "disease_status": "on_treatment"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "daily_activity",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT01954992",
+    "NCT06698458",
+    "NCT06893276"
+   ],
+   "excluded": [
+    "NCT04858334",
+    "NCT06943755"
+   ],
+   "candidates": 5
+  },
+  {
+   "id": "p25",
+   "note": "Pancreatic, BRCA+, New Orleans, anywhere",
+   "answers": {
+    "travelMiles": null,
+    "spread": "not_sure",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {
+     "BRCA": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "pancreatic",
+    "zip": "70112",
+    "age": 58
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "pancreatic",
+     "age": 58,
+     "zip": "70112",
+     "travel": null,
+     "spread": "unknown",
+     "treatments": [
+      "unknown"
+     ],
+     "biomarkers": {
+      "BRCA": "positive"
+     }
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT01954992",
+    "NCT03384238",
+    "NCT04858334",
+    "NCT05227326",
+    "NCT05518903",
+    "NCT05764720",
+    "NCT05837767",
+    "NCT06030622",
+    "NCT06458712",
+    "NCT06582017",
+    "NCT06673329",
+    "NCT06695845",
+    "NCT06698458",
+    "NCT06751329",
+    "NCT06893276",
+    "NCT06910657",
+    "NCT07024615",
+    "NCT07090499",
+    "NCT07148128",
+    "NCT07157033",
+    "NCT07214298",
+    "NCT07270237",
+    "NCT07645651"
+   ],
+   "excluded": [
+    "NCT06943755",
+    "NCT07114939"
+   ],
+   "candidates": 25
+  },
+  {
+   "id": "p26",
+   "note": "Platinum-resistant ovarian, Salt Lake City, anywhere",
+   "answers": {
+    "travelMiles": null,
+    "spread": "not_sure",
+    "treatments": [
+     "chemotherapy",
+     "surgery"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "ovarian",
+    "zip": "84112",
+    "age": 61
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "ovarian",
+     "age": 61,
+     "zip": "84112",
+     "travel": null,
+     "spread": "unknown",
+     "treatments": [
+      "chemotherapy",
+      "surgery"
+     ],
+     "group_status": "platinum_resistant",
+     "sex": "female"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "group_status",
+     "sex"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04606914",
+    "NCT04895709",
+    "NCT05039801",
+    "NCT05086692",
+    "NCT05227326",
+    "NCT05636111",
+    "NCT05743517",
+    "NCT05942300",
+    "NCT06049420",
+    "NCT06083844",
+    "NCT06161025",
+    "NCT06458712",
+    "NCT06582017",
+    "NCT06617923",
+    "NCT06690775",
+    "NCT06695845",
+    "NCT06751329",
+    "NCT06890338",
+    "NCT06910657",
+    "NCT06964009",
+    "NCT06999187",
+    "NCT07280312"
+   ],
+   "excluded": [],
+   "candidates": 27
+  },
+  {
+   "id": "p27",
+   "note": "Ovarian BRCA+, Boston",
+   "answers": {
+    "travelMiles": 250,
+    "spread": "not_sure",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {
+     "BRCA": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "ovarian",
+    "zip": "02115",
+    "age": 54
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "ovarian",
+     "age": 54,
+     "zip": "02115",
+     "travel": 250,
+     "spread": "unknown",
+     "treatments": [
+      "unknown"
+     ],
+     "biomarkers": {
+      "BRCA": "positive"
+     },
+     "sex": "female",
+     "disease_status": "new"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "sex",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04895709",
+    "NCT06161025",
+    "NCT06458712",
+    "NCT06582017",
+    "NCT06690775",
+    "NCT06695845",
+    "NCT06890338",
+    "NCT06964009"
+   ],
+   "excluded": [],
+   "candidates": 13
+  },
+  {
+   "id": "p28",
+   "note": "Recurrent glioblastoma, San Francisco",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "not_sure",
+    "treatments": [
+     "surgery",
+     "radiation",
+     "chemotherapy"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "brain",
+    "zip": "94143",
+    "age": 55
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "brain",
+     "age": 55,
+     "zip": "94143",
+     "travel": 500,
+     "spread": "unknown",
+     "treatments": [
+      "surgery",
+      "radiation",
+      "chemotherapy"
+     ],
+     "disease_status": "recurrent",
+     "daily_activity": "2"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04977375",
+    "NCT05139056",
+    "NCT05432804",
+    "NCT06090903",
+    "NCT06186401",
+    "NCT06860594"
+   ],
+   "excluded": [],
+   "candidates": 7
+  },
+  {
+   "id": "p29",
+   "note": "IDH-mutant glioma, Durham, anywhere",
+   "answers": {
+    "travelMiles": null,
+    "spread": "not_sure",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {
+     "IDH": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "brain",
+    "zip": "27710",
+    "age": 39
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "brain",
+     "age": 39,
+     "zip": "27710",
+     "travel": null,
+     "spread": "unknown",
+     "treatments": [
+      "unknown"
+     ],
+     "biomarkers": {
+      "IDH": "positive"
+     }
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT01906385",
+    "NCT03603405",
+    "NCT04573140",
+    "NCT04977375",
+    "NCT04991870",
+    "NCT05052957",
+    "NCT05083754",
+    "NCT05139056",
+    "NCT05588141",
+    "NCT06090903",
+    "NCT06186401",
+    "NCT06815432",
+    "NCT07025226",
+    "NCT07076498",
+    "NCT07185880",
+    "NCT07225621",
+    "NCT07392957",
+    "NCT07560865",
+    "NCT07579208"
+   ],
+   "excluded": [
+    "NCT04623931",
+    "NCT05432804",
+    "NCT06860594"
+   ],
+   "candidates": 27
+  },
+  {
+   "id": "p30",
+   "note": "Metastatic urothelial (bladder), Spanish speaker, Houston",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "chemotherapy"
+    ],
+    "biomarkers": {},
+    "language": "es",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "bladder",
+    "zip": "77030",
+    "age": 73
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "bladder",
+     "age": 73,
+     "zip": "77030",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "chemotherapy"
+     ],
+     "disease_status": "on_treatment",
+     "daily_activity": "0-1"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04628767",
+    "NCT04865939",
+    "NCT04895709",
+    "NCT05176483",
+    "NCT06582017",
+    "NCT06910657",
+    "NCT07090499",
+    "NCT07183319",
+    "NCT07217171",
+    "NCT07222488",
+    "NCT07475806"
+   ],
+   "excluded": [
+    "NCT06545955",
+    "NCT06567743"
+   ],
+   "candidates": 14
+  },
+  {
+   "id": "p31",
+   "note": "RAI-refractory thyroid, Boston",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "surgery",
+     "radiation"
+    ],
+    "biomarkers": {
+     "BRAF": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "thyroid",
+    "zip": "02115",
+    "age": 63
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "thyroid",
+     "age": 63,
+     "zip": "02115",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "surgery",
+      "radiation"
+     ],
+     "biomarkers": {
+      "BRAF": "positive"
+     },
+     "group_status": "rai_refractory",
+     "daily_activity": "0-1"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "group_status",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT06673329",
+    "NCT07270237"
+   ],
+   "excluded": [],
+   "candidates": 2
+  },
+  {
+   "id": "p32",
+   "note": "Hepatocellular carcinoma, unsure of biomarkers, Houston",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "not_sure"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "liver",
+    "zip": "77030",
+    "age": 66
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "liver",
+     "age": 66,
+     "zip": "77030",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "unknown"
+     ],
+     "daily_activity": "2",
+     "disease_status": "on_treatment"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "daily_activity",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT05176483",
+    "NCT06582017",
+    "NCT06910657"
+   ],
+   "excluded": [],
+   "candidates": 5
+  },
+  {
+   "id": "p33",
+   "note": "Biliary tract cancer, Rochester MN",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "chemotherapy"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "liver",
+    "zip": "55905",
+    "age": 58
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "liver",
+     "age": 58,
+     "zip": "55905",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "chemotherapy"
+     ],
+     "daily_activity": "0-1"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04900818"
+   ],
+   "excluded": [
+    "NCT05176483",
+    "NCT06582017",
+    "NCT06910657"
+   ],
+   "candidates": 5
+  },
+  {
+   "id": "p34",
+   "note": "HER2+ gastroesophageal, New York",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "chemotherapy"
+    ],
+    "biomarkers": {
+     "HER2": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "gastroesophageal",
+    "zip": "10032",
+    "age": 61
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "gastroesophageal",
+     "age": 61,
+     "zip": "10032",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "chemotherapy"
+     ],
+     "biomarkers": {
+      "HER2": "positive"
+     },
+     "daily_activity": "0-1",
+     "disease_status": "recurrent"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "daily_activity",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04900818",
+    "NCT05086692",
+    "NCT05144698",
+    "NCT06673329",
+    "NCT06695845",
+    "NCT06999187",
+    "NCT07090499",
+    "NCT07217171",
+    "NCT07519655"
+   ],
+   "excluded": [],
+   "candidates": 10
+  },
+  {
+   "id": "p35",
+   "note": "EGFR+ NSCLC with brain metastases, Houston",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "targeted_therapy"
+    ],
+    "biomarkers": {
+     "EGFR": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "lung",
+    "zip": "77030",
+    "age": 55
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "lung",
+     "age": 55,
+     "zip": "77030",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "targeted_therapy"
+     ],
+     "biomarkers": {
+      "EGFR": "positive"
+     },
+     "brain_mets": "treated_stable",
+     "daily_activity": "0-1",
+     "disease_status": "recurrent"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "brain_mets",
+     "daily_activity",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04895709",
+    "NCT04913285",
+    "NCT05176483",
+    "NCT05267626",
+    "NCT06216301",
+    "NCT06695845",
+    "NCT06945484",
+    "NCT07090499",
+    "NCT07098338",
+    "NCT07154706",
+    "NCT07293247",
+    "NCT07659782"
+   ],
+   "excluded": [
+    "NCT07625644",
+    "NCT07705334"
+   ],
+   "candidates": 19
+  },
+  {
+   "id": "p36",
+   "note": "Small cell lung, ECOG 2, Cleveland",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "chemotherapy"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "lung",
+    "zip": "44195",
+    "age": 72
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "lung",
+     "age": 72,
+     "zip": "44195",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "chemotherapy"
+     ],
+     "daily_activity": "2",
+     "disease_status": "on_treatment"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "daily_activity",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT07625644"
+   ],
+   "excluded": [
+    "NCT01639508",
+    "NCT04895709",
+    "NCT04913285",
+    "NCT05086692",
+    "NCT05144698",
+    "NCT05176483",
+    "NCT05267626",
+    "NCT05837767",
+    "NCT06216301",
+    "NCT06695845",
+    "NCT07090499",
+    "NCT07098338",
+    "NCT07126509",
+    "NCT07154706",
+    "NCT07293247",
+    "NCT07428044",
+    "NCT07519655",
+    "NCT07659782"
+   ],
+   "candidates": 29
+  },
+  {
+   "id": "p37",
+   "note": "mCRPC after one hormone drug, ECOG unknown, Dallas/Houston",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "yes",
+    "treatments": [
+     "surgery",
+     "radiation"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "prostate",
+    "zip": "77030",
+    "age": 74
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "prostate",
+     "age": 74,
+     "zip": "77030",
+     "travel": 500,
+     "spread": "distant",
+     "treatments": [
+      "surgery",
+      "radiation"
+     ],
+     "group_status": "crpc",
+     "daily_activity": "unknown",
+     "sex": "male",
+     "disease_status": "recurrent"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "group_status",
+     "daily_activity",
+     "sex",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT05125016",
+    "NCT05413421",
+    "NCT05806515",
+    "NCT05946213",
+    "NCT06044025",
+    "NCT06095089",
+    "NCT06582017",
+    "NCT06751329",
+    "NCT06910657",
+    "NCT07052214"
+   ],
+   "excluded": [
+    "NCT04812366"
+   ],
+   "candidates": 11
+  },
+  {
+   "id": "p38",
+   "note": "Platinum-resistant ovarian, BRCA unknown, Salt Lake City",
+   "answers": {
+    "travelMiles": null,
+    "spread": "not_sure",
+    "treatments": [
+     "chemotherapy",
+     "surgery"
+    ],
+    "biomarkers": {
+     "BRCA": "dont_know"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "ovarian",
+    "zip": "84112",
+    "age": 64
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "ovarian",
+     "age": 64,
+     "zip": "84112",
+     "travel": null,
+     "spread": "unknown",
+     "treatments": [
+      "chemotherapy",
+      "surgery"
+     ],
+     "biomarkers": {
+      "BRCA": "unknown"
+     },
+     "group_status": "platinum_resistant",
+     "sex": "female",
+     "daily_activity": "0-1"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "group_status",
+     "sex",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04606914",
+    "NCT04895709",
+    "NCT05039801",
+    "NCT05086692",
+    "NCT05227326",
+    "NCT05636111",
+    "NCT05743517",
+    "NCT05942300",
+    "NCT06049420",
+    "NCT06083844",
+    "NCT06161025",
+    "NCT06458712",
+    "NCT06582017",
+    "NCT06617923",
+    "NCT06690775",
+    "NCT06695845",
+    "NCT06751329",
+    "NCT06890338",
+    "NCT06910657",
+    "NCT06964009",
+    "NCT06999187",
+    "NCT07280312"
+   ],
+   "excluded": [],
+   "candidates": 27
+  },
+  {
+   "id": "p39",
+   "note": "AML FLT3+, ECOG 2, Houston",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "not_sure",
+    "treatments": [
+     "chemotherapy"
+    ],
+    "biomarkers": {
+     "FLT3": "positive"
+    },
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "leukemia",
+    "zip": "77030",
+    "age": 69
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "leukemia",
+     "age": 69,
+     "zip": "77030",
+     "travel": 500,
+     "spread": "unknown",
+     "treatments": [
+      "chemotherapy"
+     ],
+     "biomarkers": {
+      "FLT3": "positive"
+     },
+     "daily_activity": "2",
+     "disease_status": "recurrent"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "biomarkers",
+     "daily_activity",
+     "disease_status"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT03629171",
+    "NCT03896269",
+    "NCT05010122",
+    "NCT05986240",
+    "NCT06285890",
+    "NCT06786533",
+    "NCT07211958",
+    "NCT07437950"
+   ],
+   "excluded": [
+    "NCT05536349",
+    "NCT07053059",
+    "NCT07516093"
+   ],
+   "candidates": 13
+  },
+  {
+   "id": "p40",
+   "note": "Relapsed myeloma, many treatments, Nashville",
+   "answers": {
+    "travelMiles": 500,
+    "spread": "not_sure",
+    "treatments": [
+     "chemotherapy",
+     "targeted_therapy",
+     "immunotherapy"
+    ],
+    "biomarkers": {},
+    "language": "en",
+    "pregnant": "no",
+    "inAnotherTrial": "no",
+    "cancerType": "myeloma",
+    "zip": "37232",
+    "age": 70
+   },
+   "state": {
+    "v": 2,
+    "area": "cancer",
+    "mode": "thorough",
+    "answers": {
+     "cancer_type": "myeloma",
+     "age": 70,
+     "zip": "37232",
+     "travel": 500,
+     "spread": "unknown",
+     "treatments": [
+      "chemotherapy",
+      "targeted_therapy",
+      "immunotherapy"
+     ],
+     "disease_status": "recurrent",
+     "daily_activity": "unknown"
+    },
+    "history": [
+     "cancer_type",
+     "age",
+     "zip",
+     "travel",
+     "spread",
+     "treatments",
+     "disease_status",
+     "daily_activity"
+    ],
+    "deferred": [],
+    "updatedAt": 1
+   },
+   "relevant": [
+    "NCT04483206",
+    "NCT04776395",
+    "NCT05650632",
+    "NCT05714839",
+    "NCT05976555",
+    "NCT06057402",
+    "NCT06121843",
+    "NCT06270888",
+    "NCT06297226",
+    "NCT06630806",
+    "NCT06960993",
+    "NCT07075185",
+    "NCT07096778",
+    "NCT07226934",
+    "NCT07227311",
+    "NCT07236502",
+    "NCT07391657"
+   ],
+   "excluded": [
+    "NCT07095452",
+    "NCT07477587"
+   ],
+   "candidates": 22
+  }
+ ]
+}

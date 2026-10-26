@@ -1,0 +1,19 @@
+{
+ "terms": {
+  "clinical trial": "تجربة سريرية",
+  "care team": "فريق الرعاية الصحية",
+  "possible match to discuss with your care team": "تطابق محتمل لمناقشته مع فريق الرعاية الصحية",
+  "eligibility criteria": "معايير الأهلية",
+  "inclusion criteria": "معايير الإدراج",
+  "exclusion criteria": "معايير الاستبعاد",
+  "recruiting": "يتم التسجيل حاليا",
+  "biomarker": "مؤشر حيوي"
+ },
+ "banned": [
+  "أنت مؤهل",
+  "أنت مؤهلة",
+  "أنت مستوفٍ",
+  "تنطبق عليك الشروط"
+ ],
+ "style": "Modern Standard Arabic, respectful. Keep digits as in the source."
+}

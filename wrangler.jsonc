@@ -1,0 +1,37 @@
+// Cloudflare Workers with static assets (Cloudflare's current recommendation for new projects).
+// The Next.js static export in ./out is served as assets; /api/* runs the Worker in functions/.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "trialbridge",
+  "main": "functions/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "trialbridge",
+      // Replace with the real id from `npx wrangler d1 create trialbridge` at deployment.
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "functions/migrations"
+    }
+  ],
+  "vars": {
+    "ENVIRONMENT": "development",
+    // Label only (cache keys also hash trial content): the deployed dataset is the national ingest.
+    "DATA_VERSION": "national",
+    // Global daily request budget per provider (kept below each free tier's daily limit).
+    "DAILY_BUDGET_LOCAL": "5000",
+    "DAILY_BUDGET_GROQ": "800",
+    "DAILY_BUDGET_CEREBRAS": "800",
+    "DAILY_BUDGET_OPENROUTER": "40",
+    // Daily Groq token budget for the criterion judge (free tier: 200k tokens/day for gpt-oss-120b).
+    "DAILY_TOKENS_GROQ": "180000"
+  },
+  "observability": { "enabled": true }
+}

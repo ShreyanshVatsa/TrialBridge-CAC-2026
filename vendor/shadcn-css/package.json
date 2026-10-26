@@ -1,0 +1,8 @@
+{
+  "name": "shadcn",
+  "version": "4.21.3-css-only",
+  "description": "Vendored copy of shadcn/tailwind.css (MIT) only. The shadcn CLI is not installed (its dependency chain carries an unpatched braces advisory); run `npx shadcn@latest` when adding components.",
+  "license": "MIT",
+  "exports": { "./tailwind.css": "./tailwind.css" },
+  "style": "./tailwind.css"
+}

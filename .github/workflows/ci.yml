@@ -1,0 +1,35 @@
+# Manual CI (workflow_dispatch only; no CI minutes budget to spend on every push).
+# Mirrors `npm run ci` plus the e2e + axe suite.
+name: ci
+on:
+  workflow_dispatch:
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - run: npm run budgets
+      - run: npm run data:verify
+      - run: npm run eval
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - run: npm audit --audit-level=high
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-results
+          path: |
+            eval/REGRESSION.md
+            eval/results.json
+            test-results
+          if-no-files-found: ignore

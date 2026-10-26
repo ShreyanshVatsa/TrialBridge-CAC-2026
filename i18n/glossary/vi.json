@@ -1,0 +1,18 @@
+{
+ "terms": {
+  "clinical trial": "thử nghiệm lâm sàng",
+  "care team": "đội ngũ chăm sóc sức khỏe",
+  "possible match to discuss with your care team": "trường hợp có thể phù hợp để trao đổi với đội ngũ chăm sóc của bạn",
+  "eligibility criteria": "tiêu chí đủ điều kiện",
+  "inclusion criteria": "tiêu chí đưa vào",
+  "exclusion criteria": "tiêu chí loại trừ",
+  "recruiting": "đang tuyển",
+  "biomarker": "dấu ấn sinh học"
+ },
+ "banned": [
+  "bạn đủ điều kiện",
+  "bạn đủ tiêu chuẩn",
+  "bạn phù hợp để tham gia"
+ ],
+ "style": "Vietnamese; address the reader as 'bạn'."
+}

@@ -1,0 +1,4 @@
+{
+  "note": "Hand-set defaults; reproduce score.ts for the original features. Refit with scripts/eval/fit-fusion.ts.",
+  "weights": { "retrieval": 1, "kw": 0, "vec": 0, "cosine": 0, "bm25": 0, "penalty": -1, "bonus": 1, "phase": 1, "subtypeMatch": 0.08, "subtypeConflict": -0.35, "basket": 0, "weakGroup": 0, "extentConflict": -0.6 }
+}

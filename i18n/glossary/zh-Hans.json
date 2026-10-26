@@ -1,0 +1,18 @@
+{
+ "terms": {
+  "clinical trial": "临床试验",
+  "care team": "医疗团队",
+  "possible match to discuss with your care team": "可与您的医疗团队讨论的可能匹配",
+  "eligibility criteria": "资格标准",
+  "inclusion criteria": "入选标准",
+  "exclusion criteria": "排除标准",
+  "recruiting": "正在招募",
+  "biomarker": "生物标志物"
+ },
+ "banned": [
+  "您符合资格",
+  "您有资格",
+  "您合格"
+ ],
+ "style": "Simplified Chinese (mainland usage), polite 您."
+}

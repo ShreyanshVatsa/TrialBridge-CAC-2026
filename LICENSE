@@ -1,0 +1,16 @@
+Copyright (c) 2026 Shreyansh Vatsa. All rights reserved.
+
+This source code is made available for viewing and evaluation only, including
+review by the Congressional App Challenge and its judges. No permission is
+granted to copy, modify, distribute, sublicense, sell, or use this software or
+any part of it, in source or compiled form, without prior written permission
+from the copyright holder.
+
+Third-party libraries, models, and data included with or used by this project
+remain under their own licenses and terms, listed in README.md. Trial data is
+from ClinicalTrials.gov and is subject to its terms of use.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE. TrialBridge
+does not give medical advice; talk with a doctor before acting on any result.
